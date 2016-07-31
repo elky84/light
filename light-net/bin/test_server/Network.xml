@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Network>
+	<THREAD COUNT="10"/>
+	<SERVER IP="127.0.0.1" PORT="1997"/>
+</Network>

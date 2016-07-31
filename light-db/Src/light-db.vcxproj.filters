@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Odbc">
+      <UniqueIdentifier>{a420d7fe-e922-4200-9b0e-de6100242015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{b7323d4f-21f4-4f3d-b1d0-76129ec09a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MongoDB">
+      <UniqueIdentifier>{df18a754-f243-494b-8556-884db292b915}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Odbc.h">
+      <Filter>Odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OdbcParam.h">
+      <Filter>Odbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\light-db.h" />
+    <ClInclude Include="..\Include\SQLiteHelper.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SQLiteTypeUtil.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SQLiteConverter.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MongoDBHelper.h">
+      <Filter>MongoDB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Odbc.cpp">
+      <Filter>Odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="light-db.cpp" />
+    <ClCompile Include="SQLiteHelper.cpp">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="MongoDBHelper.cpp">
+      <Filter>MongoDB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+</Project>

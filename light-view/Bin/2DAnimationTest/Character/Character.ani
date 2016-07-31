@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Animation>
+<LayerInfo Layer="0" TextureName="character.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="32" CutBottom="48" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="32" CutTop="0" CutRight="64" CutBottom="48" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="64" CutTop="0" CutRight="96" CutBottom="48" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="96" CutTop="0" CutRight="128" CutBottom="48" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+<LayerInfo Layer="1" TextureName="character.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="48" CutRight="32" CutBottom="96" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="32" CutTop="48" CutRight="64" CutBottom="96" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="64" CutTop="48" CutRight="96" CutBottom="96" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="96" CutTop="48" CutRight="128" CutBottom="96" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+<LayerInfo Layer="2" TextureName="character.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="96" CutRight="32" CutBottom="144" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="32" CutTop="96" CutRight="64" CutBottom="144" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="64" CutTop="96" CutRight="96" CutBottom="144" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="96" CutTop="96" CutRight="128" CutBottom="144" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+<LayerInfo Layer="3" TextureName="character.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="144" CutRight="32" CutBottom="192" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="32" CutTop="144" CutRight="64" CutBottom="192" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="64" CutTop="144" CutRight="96" CutBottom="192" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="96" CutTop="144" CutRight="128" CutBottom="192" Left="0" Top="0" Right="32" Bottom="48" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+</Animation>

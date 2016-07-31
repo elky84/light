@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "32" CutBottom = "32" Left = "0" Top = "0" Right = "32" Bottom = "32" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

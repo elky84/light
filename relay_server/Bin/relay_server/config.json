@@ -1,0 +1,6 @@
+{
+    "REDIS_HOST": "192.168.0.37",
+    "REDIS_PORT": 6379,
+    "REDIS_PASSWORD": "",
+    "REDIS_DEBUG": false
+}

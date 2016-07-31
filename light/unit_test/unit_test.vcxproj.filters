@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json_parser_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="str_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="lockfree_queue_Test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="lockfree_stack_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3d_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_parser_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_writer_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="tick_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_singleton_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="serializer_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="repository_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="reload_container_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="random_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="random_table_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="position_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="perfomance_counter_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_util_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix4_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix3_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="mark_up_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="macro_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="list_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_buffer_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="interpolation_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="fsm_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="flatbuffers_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="flatbuffers_helper_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="file_util_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_operator_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="boost_multi_index_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="boost_pool_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="boost_random_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="chaining_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="command_line_arguments_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="dispatcher_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="double_queue_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="timed_worker_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="iosp_test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8a6ebb5e-3462-4e0b-9093-b2cfeb8d9284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{5558384e-9ca2-48ef-94bc-216f0cd97281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7b5fd4ad-fd2e-4336-8349-e2e6622da443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="for_test_resources">
+      <UniqueIdentifier>{cfc38110-dea9-44c4-b5dd-15491232e5b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_generated.h">
+      <Filter>for_test_resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

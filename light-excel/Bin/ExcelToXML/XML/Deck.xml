@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<DeckList>
+<Data Index="1.0" Name="밸런스" Card0="1.0" Card1="2.0" Card2="3.0" Card3="4.0" Card4="5.0" Card5="6.0" Card6="7.0" Card7="8.0" Card8="9.0" Card9="10.0" Card10="11.0" Card11="12.0" Card12="13.0" Card13="14.0" Card14="15.0"/>
+<Data Index="2.0" Name="궁수" Card0="16.0" Card1="17.0" Card2="18.0" Card3="19.0" Card4="20.0" Card5="21.0" Card6="22.0" Card7="23.0" Card8="24.0" Card9="25.0" Card10="26.0" Card11="27.0" Card12="28.0" Card13="29.0" Card14="30.0"/>
+<Data Index="3.0" Name="전사" Card0="30.0" Card1="31.0" Card2="32.0" Card3="33.0" Card4="34.0" Card5="35.0" Card6="36.0" Card7="37.0" Card8="38.0" Card9="39.0" Card10="40.0" Card11="41.0" Card12="42.0" Card13="43.0" Card14="44.0"/>
+<Data Index="4.0" Name="법사" Card0="45.0" Card1="46.0" Card2="47.0" Card3="48.0" Card4="49.0" Card5="50.0" Card6="51.0" Card7="52.0" Card8="53.0" Card9="54.0" Card10="55.0" Card11="56.0" Card12="57.0" Card13="58.0" Card14="59.0"/>
+</DeckList>

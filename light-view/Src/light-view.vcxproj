@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9EE26FBD-F027-43E5-ADFB-DCC3D97E6B58}</ProjectGuid>
+    <RootNamespace>light-view</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_D</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_59_0; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include\; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\TinyXml\Include ; ..\..\light\Include ; </AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>light-view.h</PrecompiledHeaderFile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_59_0\lib; 
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_59_0; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include\; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\TinyXml\Include ; ..\..\light\Include ; </AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>light-view.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_59_0\lib; 
+      </AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AllocateHierarchy.cpp" />
+    <ClCompile Include="BgmPlayer.cpp" />
+    <ClCompile Include="Crop.cpp" />
+    <ClCompile Include="GuiEditBox.cpp" />
+    <ClCompile Include="GuiGroup.cpp" />
+    <ClCompile Include="GuiImage.cpp" />
+    <ClCompile Include="GuiListBox.cpp" />
+    <ClCompile Include="GuiPlaceholder.cpp" />
+    <ClCompile Include="GuiScrollBar.cpp" />
+    <ClCompile Include="GuiSlider.cpp" />
+    <ClCompile Include="GuiText.cpp" />
+    <ClCompile Include="Line2D.cpp" />
+    <ClCompile Include="Rectangle2D.cpp" />
+    <ClCompile Include="Scroll.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TilePainter.cpp" />
+    <ClCompile Include="light-view.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="EnvironmentDirectX.cpp" />
+    <ClCompile Include="FmodEx.cpp" />
+    <ClCompile Include="Frame2D.cpp" />
+    <ClCompile Include="FreeType2.cpp" />
+    <ClCompile Include="DirectX.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="D3DUtility.cpp" />
+    <ClCompile Include="Direct3D.cpp" />
+    <ClCompile Include="Animation2D.cpp" />
+    <ClCompile Include="Direct2D.cpp" />
+    <ClCompile Include="Layer2D.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Polygon2D.cpp" />
+    <ClCompile Include="Sprite2D.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="GuiButton.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="GuiProgressBar.cpp" />
+    <ClCompile Include="GuiTooltip.cpp" />
+    <ClCompile Include="Mode.cpp" />
+    <ClCompile Include="ModeManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\AllocateHierarchy.h" />
+    <ClInclude Include="..\Include\BgmPlayer.h" />
+    <ClInclude Include="..\Include\Crop.h" />
+    <ClInclude Include="..\Include\GuiEditBox.h" />
+    <ClInclude Include="..\Include\GuiGroup.h" />
+    <ClInclude Include="..\Include\GuiImage.h" />
+    <ClInclude Include="..\Include\GuiListBox.h" />
+    <ClInclude Include="..\Include\GuiPlaceholder.h" />
+    <ClInclude Include="..\Include\GuiScrollBar.h" />
+    <ClInclude Include="..\Include\GuiSlider.h" />
+    <ClInclude Include="..\Include\GuiText.h" />
+    <ClInclude Include="..\Include\Line2D.h" />
+    <ClInclude Include="..\Include\Rectangle2D.h" />
+    <ClInclude Include="..\Include\Scroll.h" />
+    <ClInclude Include="..\Include\Tile.h" />
+    <ClInclude Include="..\Include\TilePainter.h" />
+    <ClInclude Include="..\Include\light-view.h" />
+    <ClInclude Include="..\Include\EnvironmentDirectX.h" />
+    <ClInclude Include="..\Include\FmodEx.h" />
+    <ClInclude Include="..\Include\FreeType2.h" />
+    <ClInclude Include="..\Include\DirectX.h" />
+    <ClInclude Include="..\Include\FrameSkip.h" />
+    <ClInclude Include="..\Include\Camera.h" />
+    <ClInclude Include="..\Include\D3DUtility.h" />
+    <ClInclude Include="..\Include\Direct3D.h" />
+    <ClInclude Include="..\Include\Animation2D.h" />
+    <ClInclude Include="..\Include\Direct2D.h" />
+    <ClInclude Include="..\Include\Frame2D.h" />
+    <ClInclude Include="..\Include\Layer2D.h" />
+    <ClInclude Include="..\Include\Model.h" />
+    <ClInclude Include="..\Include\Polygon2D.h" />
+    <ClInclude Include="..\Include\Sprite2D.h" />
+    <ClInclude Include="..\Include\TextureManager.h" />
+    <ClInclude Include="..\Include\Gui.h" />
+    <ClInclude Include="..\Include\GuiButton.h" />
+    <ClInclude Include="..\Include\GuiManager.h" />
+    <ClInclude Include="..\Include\GuiProgressBar.h" />
+    <ClInclude Include="..\Include\GuiTooltip.h" />
+    <ClInclude Include="..\Include\Mode.h" />
+    <ClInclude Include="..\Include\ModeManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

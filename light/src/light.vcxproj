@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}</ProjectGuid>
+    <RootNamespace>light</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_D</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_59_0;..\Include;..\..\flatbuffers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEF_USE_BOOST_POOL;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>light.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Ylsymbol %(AdditionalOptions)</AdditionalOptions>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_59_0\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_59_0;..\Include;..\..\flatbuffers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEF_USE_BOOST_POOL;DEF_LEAKTRACKINGNDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>light.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Ylsymbol %(AdditionalOptions)</AdditionalOptions>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_59_0\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\async_worker.h" />
+    <ClInclude Include="..\Include\BoostPool.h" />
+    <ClInclude Include="..\Include\BoostRandom.h" />
+    <ClInclude Include="..\Include\Chaining.h" />
+    <ClInclude Include="..\Include\ChainingManager.h" />
+    <ClInclude Include="..\include\CodeGenerateUtil.h" />
+    <ClInclude Include="..\include\CppCodeGenerator.h" />
+    <ClInclude Include="..\include\DoubleQueue.h" />
+    <ClInclude Include="..\include\EnumCodeGenerator.h" />
+    <ClInclude Include="..\include\FlatBuffersHelper.h" />
+    <ClInclude Include="..\include\FlatBuffersPtr.h" />
+    <ClInclude Include="..\Include\Ime.h" />
+    <ClInclude Include="..\Include\ImeInput.h" />
+    <ClInclude Include="..\include\INILoader.h" />
+    <ClInclude Include="..\Include\INIParser.h" />
+    <ClInclude Include="..\Include\Input.h" />
+    <ClInclude Include="..\include\json_parser.h" />
+    <ClInclude Include="..\include\Repository.h" />
+    <ClInclude Include="..\include\str.h" />
+    <ClInclude Include="..\include\timed_worker.h" />
+    <ClInclude Include="..\include\timer.h" />
+    <ClInclude Include="..\include\light.h" />
+    <ClInclude Include="..\include\lockfree_stack.h" />
+    <ClInclude Include="..\Include\ObjectPool.h" />
+    <ClInclude Include="..\Include\Profiler.h" />
+    <ClInclude Include="..\Include\Registry.h" />
+    <ClInclude Include="..\include\scope_lock.h" />
+    <ClInclude Include="..\Include\BoostSerializer.h" />
+    <ClInclude Include="..\include\smart_singleton.h" />
+    <ClInclude Include="..\include\spin_lock.h" />
+    <ClInclude Include="..\Include\str_types.h" />
+    <ClInclude Include="..\include\Thread.h" />
+    <ClInclude Include="..\Include\Tick.h" />
+    <ClInclude Include="..\Include\RaiseExceptions.h" />
+    <ClInclude Include="..\Include\ReloadContainer.h" />
+    <ClInclude Include="..\Include\CommandLineArguments.h" />
+    <ClInclude Include="..\Include\lockfree_queue.h" />
+    <ClInclude Include="..\Include\EnvironmentConsole.h" />
+    <ClInclude Include="..\Include\EnvironmentInterface.h" />
+    <ClInclude Include="..\Include\EnvironmentService.h" />
+    <ClInclude Include="..\Include\EnvironmentWindow.h" />
+    <ClInclude Include="..\Include\HotKey.h" />
+    <ClInclude Include="..\Include\Interpolation.h" />
+    <ClInclude Include="..\Include\Markup.h" />
+    <ClInclude Include="..\Include\MemoryUtil.hpp" />
+    <ClInclude Include="..\Include\MSSQLType.h" />
+    <ClInclude Include="..\Include\Physics.hpp" />
+    <ClInclude Include="..\Include\Position.h" />
+    <ClInclude Include="..\Include\Rectangle.h" />
+    <ClInclude Include="..\Include\Seh.h" />
+    <ClInclude Include="..\Include\Stream.h" />
+    <ClInclude Include="..\Include\SystemTimeEx.h" />
+    <ClInclude Include="..\Include\task.h" />
+    <ClInclude Include="..\Include\Util.h" />
+    <ClInclude Include="..\Include\LogHelper.h" />
+    <ClInclude Include="..\include\weak_raw_ptr.hpp" />
+    <ClInclude Include="..\Include\worker.h" />
+    <ClInclude Include="..\Include\XMLConverter.h" />
+    <ClInclude Include="..\Include\XMLParser.h" />
+    <ClInclude Include="..\Include\XMLWriter.h" />
+    <ClInclude Include="..\Include\BitOperator.h" />
+    <ClInclude Include="..\Include\ConsoleUtil.h" />
+    <ClInclude Include="..\Include\ProcessUtil.h" />
+    <ClInclude Include="..\Include\Statistics.h" />
+    <ClInclude Include="..\Include\WindowUtil.h" />
+    <ClInclude Include="..\Include\Icon.h" />
+    <ClInclude Include="..\Include\Menu.h" />
+    <ClInclude Include="..\Include\Tray.h" />
+    <ClInclude Include="..\Include\EnvironmentManager.h" />
+    <ClInclude Include="..\Include\MiniDump.h" />
+    <ClInclude Include="..\Include\FileUtil.h" />
+    <ClInclude Include="..\Include\critical_section.h" />
+    <ClInclude Include="..\Include\Event.h" />
+    <ClInclude Include="..\Include\Mutex.h" />
+    <ClInclude Include="..\Include\Semaphore.h" />
+    <ClInclude Include="..\Include\GuiPrompt.h" />
+    <ClInclude Include="..\Include\PromptInterface.h" />
+    <ClInclude Include="..\Include\ShellPrompt.h" />
+    <ClInclude Include="..\Include\DirectoryUtil.h" />
+    <ClInclude Include="..\Include\Singleton.h" />
+    <ClInclude Include="..\Include\Macro.h" />
+    <ClInclude Include="..\Include\TimeUtil.h" />
+    <ClInclude Include="..\Include\Matrix.hpp" />
+    <ClInclude Include="..\Include\Random.hpp" />
+    <ClInclude Include="..\Include\RandomTable.hpp" />
+    <ClInclude Include="..\Include\Vector.hpp" />
+    <ClInclude Include="..\Include\LeakTracking.h" />
+    <ClInclude Include="..\Include\Node.h" />
+    <ClInclude Include="..\Include\List.h" />
+    <ClInclude Include="..\Include\Queue.h" />
+    <ClInclude Include="..\Include\Stack.h" />
+    <ClInclude Include="..\Include\LinearBuffer.h" />
+    <ClInclude Include="..\Include\RTTITypeID.hpp" />
+    <ClInclude Include="..\Include\PerformanceCounter.h" />
+    <ClInclude Include="..\Include\ServiceInstaller.h" />
+    <ClInclude Include="..\Include\Dispatcher.hpp" />
+    <ClInclude Include="ShellUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="async_worker.cpp" />
+    <ClCompile Include="BoostRandom.cpp" />
+    <ClCompile Include="CommandLineArguments.cpp" />
+    <ClCompile Include="ConsoleUtil.cpp" />
+    <ClCompile Include="CppCodeGenerator.cpp" />
+    <ClCompile Include="EnumCodeGenerator.cpp" />
+    <ClCompile Include="Icon.cpp" />
+    <ClCompile Include="Ime.cpp" />
+    <ClCompile Include="ImeInput.cpp" />
+    <ClCompile Include="INILoader.cpp" />
+    <ClCompile Include="INIParser.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="json_parser.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="RaiseExceptions.cpp" />
+    <ClCompile Include="ShellUtil.cpp" />
+    <ClCompile Include="DirectoryUtil.cpp" />
+    <ClCompile Include="EnvironmentConsole.cpp" />
+    <ClCompile Include="EnvironmentService.cpp" />
+    <ClCompile Include="EnvironmentWindow.cpp" />
+    <ClCompile Include="FileUtil.cpp" />
+    <ClCompile Include="GuiPrompt.cpp" />
+    <ClCompile Include="HotKey.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MemoryUtil.cpp" />
+    <ClCompile Include="ProcessUtil.cpp" />
+    <ClCompile Include="Seh.cpp" />
+    <ClCompile Include="ServiceInstaller.cpp" />
+    <ClCompile Include="ShellPrompt.cpp" />
+    <ClCompile Include="str.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="timed_worker.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="TimeUtil.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="EnvironmentManager.cpp" />
+    <ClCompile Include="MiniDump.cpp" />
+    <ClCompile Include="PerformanceCounter.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="WindowUtil.cpp" />
+    <ClCompile Include="light.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="LogHelper.cpp" />
+    <ClCompile Include="XMLParser.cpp" />
+    <ClCompile Include="XMLWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Include\LinearBuffer.inl" />
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

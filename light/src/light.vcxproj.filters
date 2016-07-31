@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{f3b2be8a-1125-4129-a668-97b491ecf1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{18bbdf50-31eb-4e29-9b76-411dd1c6a3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{f1cd2011-25af-42f7-914f-d1398140ad63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{5c523cd9-11c7-4453-bbc9-53e52bb08c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\Synchronization">
+      <UniqueIdentifier>{8c24ba1a-e469-42e1-9829-0dbb8384e088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prompt">
+      <UniqueIdentifier>{f5dea981-777c-4795-af27-2e1e57f6e264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Directory">
+      <UniqueIdentifier>{5e597d3a-a544-494a-bfc6-8af5221646e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{b70cc341-49fc-48c3-8ace-2843180f251e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3752ca48-b4de-4075-a337-fc9d1b943538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{65897016-ab3e-46e0-9559-695b8b9dd199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{869e10ab-3dc0-4446-8418-2ef5725fb666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{e48150be-4f64-4a31-aae1-02cbe3f11a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\LeakTracking">
+      <UniqueIdentifier>{33eaa5ec-00be-4c34-9755-7b1e0f12a654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTTI">
+      <UniqueIdentifier>{f8183d12-7d13-4ec8-b3cf-ee4a5ff9e35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfomance">
+      <UniqueIdentifier>{40223bfe-25bf-44d8-a3bb-5d7b0c84c6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfomance\Counter">
+      <UniqueIdentifier>{279086eb-4b82-45d5-8f06-8ec52e38a687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{d9ec8bc9-c964-4381-b3db-6b8047099b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dispatcher">
+      <UniqueIdentifier>{28bb84c6-3311-4cb7-bce6-9e93d8bed713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{c780b442-d5dc-4811-a926-ae64e44903a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Control">
+      <UniqueIdentifier>{43da2492-629e-472c-8ae3-20c1feb26e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Hotkey">
+      <UniqueIdentifier>{a2b56a75-a963-4c09-ba9f-624a4e8c02b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment\Manager">
+      <UniqueIdentifier>{ab89dd81-2a1f-4875-b39d-4e281b9f55e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment\Implements">
+      <UniqueIdentifier>{e6ca504d-c2ee-4555-ba07-df48f2813bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment\Interface">
+      <UniqueIdentifier>{d69ae07e-f344-4328-966e-ef24036ff080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{8457f130-0921-465b-9984-b66920d795dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BitOperate">
+      <UniqueIdentifier>{ef9d8a59-0b25-4be7-91eb-1de03fc2759f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{719a699a-e59f-41ce-9c0f-a3544e8bb9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{3a514aac-d585-4a37-8e9a-791cefda530b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{42916bc6-7f1d-4eb5-ae59-bbf956a4c2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worker">
+      <UniqueIdentifier>{f7e90208-d45c-4edd-9cf9-0005098b8b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Random">
+      <UniqueIdentifier>{57247b8e-8042-4582-9e17-a437f0ca98e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Interpolation">
+      <UniqueIdentifier>{37058e26-8525-4d3d-8df6-5ba69a64a064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{4e9e4d8d-cdee-4302-b311-6ecd5b36e6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector">
+      <UniqueIdentifier>{d37bdf2a-638e-4adc-a5c2-9dbb20893892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Position">
+      <UniqueIdentifier>{f5f1077b-199f-48bd-92ca-b47d38bc21d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Rectangle">
+      <UniqueIdentifier>{5c269b5d-c2a1-421e-a5c4-304053253703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{ad4d6262-63c1-4d1d-a949-e11023d9f9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{8094f8e2-4e3f-4590-b599-80744472c0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Util">
+      <UniqueIdentifier>{3bf1a244-9160-47d5-a24d-ef56f3f34b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorHandler">
+      <UniqueIdentifier>{cf82cf02-085f-4ebe-811e-a40e55d44380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorHandler\MiniDump">
+      <UniqueIdentifier>{35cfc439-b59e-4e00-b8c8-5eaf1cda94fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\MarkUp">
+      <UniqueIdentifier>{b72f48c5-11b8-4825-87e6-f2d75cca79c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Writer">
+      <UniqueIdentifier>{29209ddc-c222-44e6-8ca3-0ba1c162c336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Converter">
+      <UniqueIdentifier>{172722b1-7a68-4ea3-8abd-b97e2b665bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{a89bd08f-826a-409f-9599-4b117e11581a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS-SQL">
+      <UniqueIdentifier>{72f8a980-bde1-434f-87e1-b447eba6b055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorHandler\Seh">
+      <UniqueIdentifier>{f01d0170-7d1d-4bc1-bef2-81f2c94a40e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{8db5b7e7-11f0-477a-8c33-53c7a39e01af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chaining">
+      <UniqueIdentifier>{76c3376d-724b-4b5e-9c57-ebbc697036b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{e0b9c88e-cb92-466f-9366-61a9740e9d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container\Common">
+      <UniqueIdentifier>{c505d3cc-243b-4739-9edf-ffd078b10da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container\List">
+      <UniqueIdentifier>{784a208b-dc06-4b92-8eb6-3f0ff27d56eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container\Queue">
+      <UniqueIdentifier>{3dc132b2-7fd1-4c6b-b79a-930ea6ed183d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container\Reload">
+      <UniqueIdentifier>{0d4dfaa4-910e-4db1-ae1f-4aef4c309b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{598e258b-255b-4ec3-a152-b3ffec491a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiler">
+      <UniqueIdentifier>{260d544f-6d52-4e92-81bb-02709511c0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shell">
+      <UniqueIdentifier>{9958e073-4b59-4150-9e00-f88ed64c097e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Pool">
+      <UniqueIdentifier>{1070b6b3-cb30-4fee-b2db-8b186cf0baf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandLineArguments">
+      <UniqueIdentifier>{c1a6fac8-1e6e-4cb1-a688-aa533bc871ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialize">
+      <UniqueIdentifier>{a94067b4-c05f-4299-beee-3e3e682b5bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Util">
+      <UniqueIdentifier>{7501d277-0dbc-4154-b10e-6b4eb80d2c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Registry">
+      <UniqueIdentifier>{994d7f8b-64a8-45d0-8558-b6adfc8c0711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pointer">
+      <UniqueIdentifier>{250beada-b6d6-4952-a501-dc1bc71fd920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Parser">
+      <UniqueIdentifier>{939bec60-36b1-4cc9-adf9-910a42e22ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Async">
+      <UniqueIdentifier>{aeab5dca-463e-427c-93be-bcde379f7934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeGenerator">
+      <UniqueIdentifier>{7121f42a-2720-41d6-8ec0-3984afb1f84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flatbuffers">
+      <UniqueIdentifier>{89db3d4a-0dee-47a3-8a98-63b2991ca0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{8f15d997-11cb-40ce-8153-3463f6385631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INI">
+      <UniqueIdentifier>{afcd459d-985a-401d-8086-3fc5c3a8d9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{9ff72173-9712-4cb2-a37c-c2bf8064c75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{eef310cc-0b03-4a54-8433-1374c2c77b6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\FileUtil.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Event.h">
+      <Filter>Thread\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Mutex.h">
+      <Filter>Thread\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Semaphore.h">
+      <Filter>Thread\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiPrompt.h">
+      <Filter>Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PromptInterface.h">
+      <Filter>Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ShellPrompt.h">
+      <Filter>Prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DirectoryUtil.h">
+      <Filter>Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Macro.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TimeUtil.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\LeakTracking.h">
+      <Filter>Memory\LeakTracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Node.h">
+      <Filter>Container\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\List.h">
+      <Filter>Container\List</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Queue.h">
+      <Filter>Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Stack.h">
+      <Filter>Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\LinearBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RTTITypeID.hpp">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PerformanceCounter.h">
+      <Filter>Perfomance\Counter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ServiceInstaller.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Dispatcher.hpp">
+      <Filter>Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Util.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Icon.h">
+      <Filter>Windows\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Tray.h">
+      <Filter>Windows\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Menu.h">
+      <Filter>Windows\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HotKey.h">
+      <Filter>Windows\Hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EnvironmentManager.h">
+      <Filter>Environment\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EnvironmentWindow.h">
+      <Filter>Environment\Implements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EnvironmentConsole.h">
+      <Filter>Environment\Implements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EnvironmentService.h">
+      <Filter>Environment\Implements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EnvironmentInterface.h">
+      <Filter>Environment\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BitOperator.h">
+      <Filter>BitOperate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ConsoleUtil.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ProcessUtil.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Statistics.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Random.hpp">
+      <Filter>Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RandomTable.hpp">
+      <Filter>Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interpolation.h">
+      <Filter>Math\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Matrix.hpp">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Vector.hpp">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Position.h">
+      <Filter>Math\Position</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rectangle.h">
+      <Filter>Math\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MiniDump.h">
+      <Filter>ErrorHandler\MiniDump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Physics.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MemoryUtil.hpp">
+      <Filter>Memory\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SystemTimeEx.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Markup.h">
+      <Filter>XML\MarkUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\XMLWriter.h">
+      <Filter>XML\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\XMLConverter.h">
+      <Filter>XML\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Stream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MSSQLType.h">
+      <Filter>MS-SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Seh.h">
+      <Filter>ErrorHandler\Seh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RaiseExceptions.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BoostPool.h">
+      <Filter>Memory\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BoostRandom.h">
+      <Filter>Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Chaining.h">
+      <Filter>Chaining</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ChainingManager.h">
+      <Filter>Chaining</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReloadContainer.h">
+      <Filter>Container\Reload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ImeInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Profiler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellUtil.h">
+      <Filter>Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ObjectPool.h">
+      <Filter>Memory\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Ime.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Tick.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\XMLParser.h">
+      <Filter>XML\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CommandLineArguments.h">
+      <Filter>CommandLineArguments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\LogHelper.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\INIParser.h">
+      <Filter>INI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Registry.h">
+      <Filter>Windows\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\WindowUtil.h">
+      <Filter>Windows\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\light.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\weak_raw_ptr.hpp">
+      <Filter>Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\INILoader.h">
+      <Filter>INI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CodeGenerateUtil.h">
+      <Filter>CodeGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppCodeGenerator.h">
+      <Filter>CodeGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EnumCodeGenerator.h">
+      <Filter>CodeGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FlatBuffersHelper.h">
+      <Filter>flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json_parser.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spin_lock.h">
+      <Filter>Thread\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\scope_lock.h">
+      <Filter>Thread\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\lockfree_queue.h">
+      <Filter>Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\lockfree_stack.h">
+      <Filter>Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DoubleQueue.h">
+      <Filter>Container\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\smart_singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FlatBuffersPtr.h">
+      <Filter>flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\timed_worker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\timer.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\task.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\worker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BoostSerializer.h">
+      <Filter>Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\str.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Repository.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\str_types.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\critical_section.h">
+      <Filter>Thread\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\async_worker.h">
+      <Filter>Async</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PerformanceCounter.cpp">
+      <Filter>Perfomance\Counter</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Windows\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentManager.cpp">
+      <Filter>Environment\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentConsole.cpp">
+      <Filter>Environment\Implements</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentService.cpp">
+      <Filter>Environment\Implements</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentWindow.cpp">
+      <Filter>Environment\Implements</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKey.cpp">
+      <Filter>Windows\Hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>ErrorHandler\MiniDump</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceInstaller.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUtil.cpp">
+      <Filter>Memory\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPrompt.cpp">
+      <Filter>Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellPrompt.cpp">
+      <Filter>Prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>XML\MarkUp</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLWriter.cpp">
+      <Filter>XML\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryUtil.cpp">
+      <Filter>Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessUtil.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Seh.cpp">
+      <Filter>ErrorHandler\Seh</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="RaiseExceptions.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUtil.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostRandom.cpp">
+      <Filter>Math\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="ImeInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleUtil.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>Windows\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellUtil.cpp">
+      <Filter>Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="Ime.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>XML\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLineArguments.cpp">
+      <Filter>CommandLineArguments</Filter>
+    </ClCompile>
+    <ClCompile Include="LogHelper.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="INIParser.cpp">
+      <Filter>INI</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtil.cpp">
+      <Filter>Windows\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="INILoader.cpp">
+      <Filter>INI</Filter>
+    </ClCompile>
+    <ClCompile Include="CppCodeGenerator.cpp">
+      <Filter>CodeGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumCodeGenerator.cpp">
+      <Filter>CodeGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="json_parser.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="timed_worker.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="str.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="async_worker.cpp">
+      <Filter>Async</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Include\LinearBuffer.inl">
+      <Filter>Buffer</Filter>
+    </None>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+</Project>

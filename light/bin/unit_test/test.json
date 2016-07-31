@@ -1,0 +1,28 @@
+{
+	"encoding": "UTF-8",
+	"config_type": "dev",
+
+	"port": 8899,
+
+	"log": {
+		"max_size": 1024,
+		"write_file": true,
+		"print_screen": true
+	},
+
+	"database": [{
+		"desc": "no.1",
+		"address": "127.0.0.1",
+		"port": 4443,
+		"instance": "test_instance1",
+		"id": "sa",
+		"password": "asdf1234$"
+	}, {
+		"desc": "no.2",
+		"address": "127.0.0.1",
+		"port": 5443,
+		"instance": "test_instance2",
+		"id": "sa",
+		"password": "asdf1234$"
+	}]
+}

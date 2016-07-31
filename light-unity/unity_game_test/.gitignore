@@ -1,0 +1,63 @@
+# ignore unity temponary files
+*.sln
+*.csproj
+*.unityproj
+
+UnityVS*
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.out
+*.app
+
+# Project temponary files
+*.sdf
+*.suo
+
+# Debug output files
+*_Debug.*
+
+# Build intermediate files
+*.idb
+*.obj
+*.tlog
+*.lastbuildstate
+*.ipch
+*.cache
+
+# Build Intermediate directories
+Intermediate/
+Debug/
+Library/
+Temp/
+
+# Log files
+*.log
+
+
+# ignore rails tempnary files.
+*.lock
+
+#ignore aptana studio project files
+.project

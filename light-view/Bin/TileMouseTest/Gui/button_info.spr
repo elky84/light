@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "menu_info.jpg"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "80" CutBottom = "20" Left = "0" Top = "0" Right = "80" Bottom = "20" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+    <FrameInfo CutLeft = "0" CutTop = "20" CutRight = "80" CutBottom = "40" Left = "0" Top = "0" Right = "80" Bottom = "20" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+    <FrameInfo CutLeft = "0" CutTop = "20" CutRight = "80" CutBottom = "40" Left = "0" Top = "0" Right = "80" Bottom = "20" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

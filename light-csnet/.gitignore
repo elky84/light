@@ -1,0 +1,9 @@
+# ignore unity temponary files
+*.user
+
+# ignore json
+#*.json
+
+obj/
+
+bin/

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Peer">
+      <UniqueIdentifier>{95df35b2-5a3b-4905-bed1-328d759f0c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipe">
+      <UniqueIdentifier>{b53da645-7e64-4a6d-b459-b997a0b9344f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5e6ba8f9-b3a8-4e50-abde-a3d0ef227a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventSelect">
+      <UniqueIdentifier>{e7eae893-fdd7-42be-a866-2b45909d1ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp">
+      <UniqueIdentifier>{33a8126b-137c-49b0-94dd-5c0f77ea4607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp\Common">
+      <UniqueIdentifier>{d3249a8a-3fca-44a8-8c2e-72a8e1449d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp\Listener">
+      <UniqueIdentifier>{df966478-91a0-470e-92b3-fdad0bad9bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp\Connector">
+      <UniqueIdentifier>{c4c06471-f36e-4058-b885-eb9b3836605f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp\Session">
+      <UniqueIdentifier>{54c5c8db-baca-4dca-9431-3d3440ea7f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp\Worker">
+      <UniqueIdentifier>{115bd34d-36df-4bb0-b25c-3aee4c7a8adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp\ThreadManager">
+      <UniqueIdentifier>{761c8b3a-939b-4701-b28e-9ed285e075b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetAdapter">
+      <UniqueIdentifier>{2d3f74c9-390b-42c7-bb5e-94c08e7342f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkInterface">
+      <UniqueIdentifier>{e607ddaa-fcf7-454d-9c8f-29cf08cb937d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{7e129840-5f80-4990-a97d-962f38fda4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="P2P">
+      <UniqueIdentifier>{e67eadb7-638e-4b2a-baa4-588970d54928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="P2P\RUDP">
+      <UniqueIdentifier>{d84f1f90-0b60-4a82-b859-e7bf85614bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="P2P\Relay">
+      <UniqueIdentifier>{26a56272-1329-4ac9-9fc9-312ac5833569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{f815157b-7505-436c-99fe-14580f56b257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\Stream">
+      <UniqueIdentifier>{d89b06e6-8b35-4313-8872-18bb3a5dde48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{dc1fe5b6-0396-452b-87af-8640085c9b6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\ConnectorInterface.h">
+      <Filter>NetworkInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ListenInterface.h">
+      <Filter>NetworkInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ConnectorEventSelect.h">
+      <Filter>EventSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EventSelectInterface.h">
+      <Filter>EventSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\IoInterface.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TCPSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UDPSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PAsyncSelect.h">
+      <Filter>P2P\RUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PCommon.h">
+      <Filter>P2P\RUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PEventSelect.h">
+      <Filter>P2P\RUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PInterface.h">
+      <Filter>P2P\RUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PPeer.h">
+      <Filter>P2P\RUDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PRelay.h">
+      <Filter>P2P\Relay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PRelayCommon.h">
+      <Filter>P2P\Relay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PRelayConnector.h">
+      <Filter>P2P\Relay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PRelayPeer.h">
+      <Filter>P2P\Relay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\P2PRelayPeerEx.h">
+      <Filter>P2P\Relay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\IocpContext.h">
+      <Filter>Iocp\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Acceptor.h">
+      <Filter>Iocp\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Listener.h">
+      <Filter>Iocp\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Connector.h">
+      <Filter>Iocp\Connector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Session.h">
+      <Filter>Iocp\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SessionManager.h">
+      <Filter>Iocp\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\IocpWorker.h">
+      <Filter>Iocp\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\IocpThreadManager.h">
+      <Filter>Iocp\ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NetAdapter.h">
+      <Filter>NetAdapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Pipe.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PipeClient.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PipeContext.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PipeServer.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Peer.h">
+      <Filter>Peer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PeerEx.h">
+      <Filter>Peer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PacketStream.h">
+      <Filter>Packet\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NetworkConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\light-net.h" />
+    <ClInclude Include="..\Include\IocpInterface.h">
+      <Filter>Iocp\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EventWorker.h">
+      <Filter>EventSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Socket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NetStat.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConnectorInterface.cpp">
+      <Filter>NetworkInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ListenInterface.cpp">
+      <Filter>NetworkInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectorEventSelect.cpp">
+      <Filter>EventSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSelectInterface.cpp">
+      <Filter>EventSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="IoInterface.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PAsyncSelect.cpp">
+      <Filter>P2P\RUDP</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PEventSelect.cpp">
+      <Filter>P2P\RUDP</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PInterface.cpp">
+      <Filter>P2P\RUDP</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PPeer.cpp">
+      <Filter>P2P\RUDP</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PRelay.cpp">
+      <Filter>P2P\Relay</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PRelayConnector.cpp">
+      <Filter>P2P\Relay</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PRelayPeer.cpp">
+      <Filter>P2P\Relay</Filter>
+    </ClCompile>
+    <ClCompile Include="P2PRelayPeerEx.cpp">
+      <Filter>P2P\Relay</Filter>
+    </ClCompile>
+    <ClCompile Include="Acceptor.cpp">
+      <Filter>Iocp\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Iocp\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp">
+      <Filter>Iocp\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Iocp\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionManager.cpp">
+      <Filter>Iocp\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpWorker.cpp">
+      <Filter>Iocp\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpThreadManager.cpp">
+      <Filter>Iocp\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NetAdapter.cpp">
+      <Filter>NetAdapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeClient.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeContext.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeServer.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Peer.cpp">
+      <Filter>Peer</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerEx.cpp">
+      <Filter>Peer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="light-net.cpp" />
+    <ClCompile Include="IocpInterface.cpp">
+      <Filter>Iocp\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetStat.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+</Project>

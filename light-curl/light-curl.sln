@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "light-curl", "Src\light-curl.vcxproj", "{E9A3D687-3ED4-4EEE-A876-EA107B21F5DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unit_test", "unit_test\unit_test.vcxproj", "{B31A8AA9-9E85-42F5-9077-7C5C3FDAE0CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+		{E9A3D687-3ED4-4EEE-A876-EA107B21F5DB} = {E9A3D687-3ED4-4EEE-A876-EA107B21F5DB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "light", "..\light\Src\light.vcxproj", "{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9A3D687-3ED4-4EEE-A876-EA107B21F5DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9A3D687-3ED4-4EEE-A876-EA107B21F5DB}.Debug|Win32.Build.0 = Debug|Win32
+		{E9A3D687-3ED4-4EEE-A876-EA107B21F5DB}.Release|Win32.ActiveCfg = Release|Win32
+		{E9A3D687-3ED4-4EEE-A876-EA107B21F5DB}.Release|Win32.Build.0 = Release|Win32
+		{B31A8AA9-9E85-42F5-9077-7C5C3FDAE0CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B31A8AA9-9E85-42F5-9077-7C5C3FDAE0CB}.Debug|Win32.Build.0 = Debug|Win32
+		{B31A8AA9-9E85-42F5-9077-7C5C3FDAE0CB}.Release|Win32.ActiveCfg = Release|Win32
+		{B31A8AA9-9E85-42F5-9077-7C5C3FDAE0CB}.Release|Win32.Build.0 = Release|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Debug|Win32.Build.0 = Debug|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Release|Win32.ActiveCfg = Release|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

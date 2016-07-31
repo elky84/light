@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Sprite>
+<SpriteInfo Layer="0" TextureName="tile.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="32" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="1" CutLeft="0" CutTop="32" CutRight="32" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="2" CutLeft="0" CutTop="64" CutRight="32" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="3" CutLeft="0" CutTop="96" CutRight="32" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="0" CutTop="128" CutRight="32" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="5" CutLeft="0" CutTop="160" CutRight="32" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="6" CutLeft="0" CutTop="192" CutRight="32" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="7" CutLeft="0" CutTop="224" CutRight="32" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="0" CutTop="256" CutRight="32" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="9" CutLeft="0" CutTop="288" CutRight="32" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="10" CutLeft="0" CutTop="320" CutRight="32" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="11" CutLeft="0" CutTop="352" CutRight="32" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="0" CutTop="384" CutRight="32" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="13" CutLeft="0" CutTop="416" CutRight="32" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="14" CutLeft="0" CutTop="448" CutRight="32" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="15" CutLeft="0" CutTop="480" CutRight="32" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="1" TextureName="tile.png">
+<FrameInfo Frame="16" CutLeft="32" CutTop="0" CutRight="64" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="17" CutLeft="32" CutTop="32" CutRight="64" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="18" CutLeft="32" CutTop="64" CutRight="64" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="19" CutLeft="32" CutTop="96" CutRight="64" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="20" CutLeft="32" CutTop="128" CutRight="64" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="21" CutLeft="32" CutTop="160" CutRight="64" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="22" CutLeft="32" CutTop="192" CutRight="64" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="23" CutLeft="32" CutTop="224" CutRight="64" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="24" CutLeft="32" CutTop="256" CutRight="64" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="25" CutLeft="32" CutTop="288" CutRight="64" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="26" CutLeft="32" CutTop="320" CutRight="64" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="27" CutLeft="32" CutTop="352" CutRight="64" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="28" CutLeft="32" CutTop="384" CutRight="64" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="29" CutLeft="32" CutTop="416" CutRight="64" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="30" CutLeft="32" CutTop="448" CutRight="64" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="31" CutLeft="32" CutTop="480" CutRight="64" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="2" TextureName="tile.png">
+<FrameInfo Frame="32" CutLeft="64" CutTop="0" CutRight="96" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="33" CutLeft="64" CutTop="32" CutRight="96" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="34" CutLeft="64" CutTop="64" CutRight="96" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="35" CutLeft="64" CutTop="96" CutRight="96" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="36" CutLeft="64" CutTop="128" CutRight="96" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="37" CutLeft="64" CutTop="160" CutRight="96" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="38" CutLeft="64" CutTop="192" CutRight="96" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="39" CutLeft="64" CutTop="224" CutRight="96" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="40" CutLeft="64" CutTop="256" CutRight="96" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="41" CutLeft="64" CutTop="288" CutRight="96" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="42" CutLeft="64" CutTop="320" CutRight="96" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="43" CutLeft="64" CutTop="352" CutRight="96" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="44" CutLeft="64" CutTop="384" CutRight="96" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="45" CutLeft="64" CutTop="416" CutRight="96" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="46" CutLeft="64" CutTop="448" CutRight="96" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="47" CutLeft="64" CutTop="480" CutRight="96" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="3" TextureName="tile.png">
+<FrameInfo Frame="48" CutLeft="96" CutTop="0" CutRight="128" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="49" CutLeft="96" CutTop="32" CutRight="128" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="96" CutTop="64" CutRight="128" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="51" CutLeft="96" CutTop="96" CutRight="128" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="52" CutLeft="96" CutTop="128" CutRight="128" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="53" CutLeft="96" CutTop="160" CutRight="128" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="54" CutLeft="96" CutTop="192" CutRight="128" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="55" CutLeft="96" CutTop="224" CutRight="128" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="56" CutLeft="96" CutTop="256" CutRight="128" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="57" CutLeft="96" CutTop="288" CutRight="128" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="58" CutLeft="96" CutTop="320" CutRight="128" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="59" CutLeft="96" CutTop="352" CutRight="128" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="60" CutLeft="96" CutTop="384" CutRight="128" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="61" CutLeft="96" CutTop="416" CutRight="128" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="62" CutLeft="96" CutTop="448" CutRight="128" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="63" CutLeft="96" CutTop="480" CutRight="128" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="4" TextureName="tile.png">
+<FrameInfo Frame="64" CutLeft="128" CutTop="0" CutRight="160" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="65" CutLeft="128" CutTop="32" CutRight="160" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="66" CutLeft="128" CutTop="64" CutRight="160" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="67" CutLeft="128" CutTop="96" CutRight="160" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="68" CutLeft="128" CutTop="128" CutRight="160" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="69" CutLeft="128" CutTop="160" CutRight="160" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="70" CutLeft="128" CutTop="192" CutRight="160" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="71" CutLeft="128" CutTop="224" CutRight="160" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="72" CutLeft="128" CutTop="256" CutRight="160" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="73" CutLeft="128" CutTop="288" CutRight="160" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="74" CutLeft="128" CutTop="320" CutRight="160" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="75" CutLeft="128" CutTop="352" CutRight="160" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="76" CutLeft="128" CutTop="384" CutRight="160" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="77" CutLeft="128" CutTop="416" CutRight="160" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="78" CutLeft="128" CutTop="448" CutRight="160" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="79" CutLeft="128" CutTop="480" CutRight="160" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="5" TextureName="tile.png">
+<FrameInfo Frame="80" CutLeft="160" CutTop="0" CutRight="192" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="81" CutLeft="160" CutTop="32" CutRight="192" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="82" CutLeft="160" CutTop="64" CutRight="192" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="83" CutLeft="160" CutTop="96" CutRight="192" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="84" CutLeft="160" CutTop="128" CutRight="192" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="85" CutLeft="160" CutTop="160" CutRight="192" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="86" CutLeft="160" CutTop="192" CutRight="192" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="87" CutLeft="160" CutTop="224" CutRight="192" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="88" CutLeft="160" CutTop="256" CutRight="192" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="89" CutLeft="160" CutTop="288" CutRight="192" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="90" CutLeft="160" CutTop="320" CutRight="192" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="91" CutLeft="160" CutTop="352" CutRight="192" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="92" CutLeft="160" CutTop="384" CutRight="192" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="93" CutLeft="160" CutTop="416" CutRight="192" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="94" CutLeft="160" CutTop="448" CutRight="192" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="95" CutLeft="160" CutTop="480" CutRight="192" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="6" TextureName="tile.png">
+<FrameInfo Frame="96" CutLeft="192" CutTop="0" CutRight="224" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="97" CutLeft="192" CutTop="32" CutRight="224" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="98" CutLeft="192" CutTop="64" CutRight="224" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="99" CutLeft="192" CutTop="96" CutRight="224" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="100" CutLeft="192" CutTop="128" CutRight="224" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="101" CutLeft="192" CutTop="160" CutRight="224" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="102" CutLeft="192" CutTop="192" CutRight="224" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="103" CutLeft="192" CutTop="224" CutRight="224" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="104" CutLeft="192" CutTop="256" CutRight="224" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="105" CutLeft="192" CutTop="288" CutRight="224" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="106" CutLeft="192" CutTop="320" CutRight="224" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="107" CutLeft="192" CutTop="352" CutRight="224" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="108" CutLeft="192" CutTop="384" CutRight="224" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="109" CutLeft="192" CutTop="416" CutRight="224" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="110" CutLeft="192" CutTop="448" CutRight="224" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="111" CutLeft="192" CutTop="480" CutRight="224" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+<SpriteInfo Layer="7" TextureName="tile.png">
+<FrameInfo Frame="112" CutLeft="224" CutTop="0" CutRight="256" CutBottom="32" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="113" CutLeft="224" CutTop="32" CutRight="256" CutBottom="64" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="114" CutLeft="224" CutTop="64" CutRight="256" CutBottom="96" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="115" CutLeft="224" CutTop="96" CutRight="256" CutBottom="128" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="116" CutLeft="224" CutTop="128" CutRight="256" CutBottom="160" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="117" CutLeft="224" CutTop="160" CutRight="256" CutBottom="192" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="118" CutLeft="224" CutTop="192" CutRight="256" CutBottom="224" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="119" CutLeft="224" CutTop="224" CutRight="256" CutBottom="256" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="120" CutLeft="224" CutTop="256" CutRight="256" CutBottom="288" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="121" CutLeft="224" CutTop="288" CutRight="256" CutBottom="320" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="122" CutLeft="224" CutTop="320" CutRight="256" CutBottom="352" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="123" CutLeft="224" CutTop="352" CutRight="256" CutBottom="384" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="124" CutLeft="224" CutTop="384" CutRight="256" CutBottom="416" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="125" CutLeft="224" CutTop="416" CutRight="256" CutBottom="448" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="126" CutLeft="224" CutTop="448" CutRight="256" CutBottom="480" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="127" CutLeft="224" CutTop="480" CutRight="256" CutBottom="512" Left="0" Top="0" Right="32" Bottom="32" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+</Sprite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Character_FormulaList>
+<Data Index="1.0" Job_Name="워리어" AD_DMG="1.0" AD_DF="0.4" AP_DMG="0.2" AP_DF="0.4" HIT="0.8" DODGE="0.6" CRITICAL="0.6" HP="0.5" TOTAL="4.5"/>
+<Data Index="2.0" Job_Name="나이트" AD_DMG="0.4" AD_DF="1.0" AP_DMG="0.2" AP_DF="0.8" HIT="0.6" DODGE="0.4" CRITICAL="0.2" HP="0.9" TOTAL="4.5"/>
+<Data Index="3.0" Job_Name="어쌔씬" AD_DMG="0.4" AD_DF="1.0" AP_DMG="0.2" AP_DF="0.8" HIT="0.6" DODGE="0.4" CRITICAL="0.2" HP="0.9" TOTAL="4.5"/>
+<Data Index="4.0" Job_Name="라이더" AD_DMG="0.6" AD_DF="0.7" AP_DMG="0.2" AP_DF="0.7" HIT="0.5" DODGE="0.8" CRITICAL="0.3" HP="0.7" TOTAL="4.5"/>
+<Data Index="5.0" Job_Name="아쳐" AD_DMG="0.6" AD_DF="0.4" AP_DMG="0.2" AP_DF="0.4" HIT="1.0" DODGE="0.6" CRITICAL="0.8" HP="0.5" TOTAL="4.5"/>
+<Data Index="6.0" Job_Name="마법사" AD_DMG="0.2" AD_DF="0.4" AP_DMG="1.0" AP_DF="1.0" HIT="0.8" DODGE="0.2" CRITICAL="0.5" HP="0.4" TOTAL="4.5"/>
+<Data Index="7.0" Job_Name="힐러" AD_DMG="0.2" AD_DF="0.4" AP_DMG="1.0" AP_DF="1.0" HIT="0.8" DODGE="0.2" CRITICAL="0.5" HP="0.4" TOTAL="4.5"/>
+</Character_FormulaList>

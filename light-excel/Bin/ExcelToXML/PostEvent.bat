@@ -1,0 +1,1 @@
+call Distribute_Header.bat "..\..\ExcelToXMLTest\Instance"

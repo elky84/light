@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "light-net", "..\light-net\src\light-net.vcxproj", "{D0D236F4-7E19-4133-AE63-CDCB4495D91D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "relay_server", "relay_server\relay_server.vcxproj", "{2A9CF6D7-1A22-48F1-ABF9-2BE13813706B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "light", "..\light\src\light.vcxproj", "{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "relay_test_client", "relay_test_client\relay_test_client.vcxproj", "{16D8CC52-13F1-4946-93B0-A171A7B1EDCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CA02805-C749-431B-B6F2-B15CC3E9FB13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CA02805-C749-431B-B6F2-B15CC3E9FB13}.Debug|Win32.Build.0 = Debug|Win32
+		{2CA02805-C749-431B-B6F2-B15CC3E9FB13}.Release|Win32.ActiveCfg = Release|Win32
+		{2CA02805-C749-431B-B6F2-B15CC3E9FB13}.Release|Win32.Build.0 = Release|Win32
+		{C25D9688-8642-47B5-B69F-09D0C3E98070}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C25D9688-8642-47B5-B69F-09D0C3E98070}.Debug|Win32.Build.0 = Debug|Win32
+		{C25D9688-8642-47B5-B69F-09D0C3E98070}.Release|Win32.ActiveCfg = Release|Win32
+		{C25D9688-8642-47B5-B69F-09D0C3E98070}.Release|Win32.Build.0 = Release|Win32
+		{83E4FF16-E646-4A22-954F-651A2D0392D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83E4FF16-E646-4A22-954F-651A2D0392D7}.Debug|Win32.Build.0 = Debug|Win32
+		{83E4FF16-E646-4A22-954F-651A2D0392D7}.Release|Win32.ActiveCfg = Release|Win32
+		{83E4FF16-E646-4A22-954F-651A2D0392D7}.Release|Win32.Build.0 = Release|Win32
+		{D0D236F4-7E19-4133-AE63-CDCB4495D91D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0D236F4-7E19-4133-AE63-CDCB4495D91D}.Debug|Win32.Build.0 = Debug|Win32
+		{D0D236F4-7E19-4133-AE63-CDCB4495D91D}.Release|Win32.ActiveCfg = Release|Win32
+		{D0D236F4-7E19-4133-AE63-CDCB4495D91D}.Release|Win32.Build.0 = Release|Win32
+		{2A9CF6D7-1A22-48F1-ABF9-2BE13813706B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A9CF6D7-1A22-48F1-ABF9-2BE13813706B}.Debug|Win32.Build.0 = Debug|Win32
+		{2A9CF6D7-1A22-48F1-ABF9-2BE13813706B}.Release|Win32.ActiveCfg = Release|Win32
+		{2A9CF6D7-1A22-48F1-ABF9-2BE13813706B}.Release|Win32.Build.0 = Release|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Debug|Win32.Build.0 = Debug|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Release|Win32.ActiveCfg = Release|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Release|Win32.Build.0 = Release|Win32
+		{16D8CC52-13F1-4946-93B0-A171A7B1EDCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16D8CC52-13F1-4946-93B0-A171A7B1EDCA}.Debug|Win32.Build.0 = Debug|Win32
+		{16D8CC52-13F1-4946-93B0-A171A7B1EDCA}.Release|Win32.ActiveCfg = Release|Win32
+		{16D8CC52-13F1-4946-93B0-A171A7B1EDCA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

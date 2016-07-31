@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "scrollbar.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "13" CutBottom = "119" Left = "0" Top = "0" Right = "20" Bottom = "160" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+    <FrameInfo CutLeft = "13" CutTop = "0" CutRight = "26" CutBottom = "119" Left = "0" Top = "0" Right = "20" Bottom = "160" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+    <FrameInfo CutLeft = "26" CutTop = "0" CutRight = "39" CutBottom = "119" Left = "0" Top = "0" Right = "20" Bottom = "160" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+  </SpriteInfo>
+  
+  <SpriteInfo Layer = "1" TextureName = "arrow.jpg"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "64" CutBottom = "64" Left = "0" Top = "0" Right = "20" Bottom = "20" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+    <FrameInfo CutLeft = "0" CutTop = "64" CutRight = "64" CutBottom = "128" Left = "0" Top = "0" Right = "20" Bottom = "20" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+  </SpriteInfo>
+
+</Sprite>

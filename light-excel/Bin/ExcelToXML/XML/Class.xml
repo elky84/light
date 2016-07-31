@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ClassList>
+<Data Index="0.0" Name="방어형" Type="1.0"/>
+<Data Index="1.0" Name="공격형" Type="1.0"/>
+<Data Index="2.0" Name="돌격형" Type="1.0"/>
+<Data Index="3.0" Name="원거리형" Type="2.0"/>
+<Data Index="4.0" Name="마법형" Type="2.0"/>
+</ClassList>

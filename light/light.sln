@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "light", "src\light.vcxproj", "{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exception_test", "exception_test\exception_test.vcxproj", "{65B27BEA-862E-4CBD-8239-27C7275AED03}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prompt_test", "prompt_test\prompt_test.vcxproj", "{E27670FA-7D8D-4DA9-8A11-BC42240B21D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worker_test", "worker_test\worker_test.vcxproj", "{A97E9F45-FE0F-4704-85E3-A87959610141}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unit_test", "unit_test\unit_test.vcxproj", "{27FE32BB-898F-4350-A822-BFCDC1F12668}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dispatch_worker_test", "dispatch_worker_test\dispatch_worker_test.vcxproj", "{FBFD9110-4759-41E6-8FF5-B1041F7015A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C} = {1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Debug|Win32.Build.0 = Debug|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Release|Win32.ActiveCfg = Release|Win32
+		{1F0BAD05-FD7A-4ED2-AB46-DFDC00C1A61C}.Release|Win32.Build.0 = Release|Win32
+		{65B27BEA-862E-4CBD-8239-27C7275AED03}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65B27BEA-862E-4CBD-8239-27C7275AED03}.Debug|Win32.Build.0 = Debug|Win32
+		{65B27BEA-862E-4CBD-8239-27C7275AED03}.Release|Win32.ActiveCfg = Release|Win32
+		{65B27BEA-862E-4CBD-8239-27C7275AED03}.Release|Win32.Build.0 = Release|Win32
+		{E27670FA-7D8D-4DA9-8A11-BC42240B21D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E27670FA-7D8D-4DA9-8A11-BC42240B21D5}.Debug|Win32.Build.0 = Debug|Win32
+		{E27670FA-7D8D-4DA9-8A11-BC42240B21D5}.Release|Win32.ActiveCfg = Release|Win32
+		{E27670FA-7D8D-4DA9-8A11-BC42240B21D5}.Release|Win32.Build.0 = Release|Win32
+		{A97E9F45-FE0F-4704-85E3-A87959610141}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A97E9F45-FE0F-4704-85E3-A87959610141}.Debug|Win32.Build.0 = Debug|Win32
+		{A97E9F45-FE0F-4704-85E3-A87959610141}.Release|Win32.ActiveCfg = Release|Win32
+		{A97E9F45-FE0F-4704-85E3-A87959610141}.Release|Win32.Build.0 = Release|Win32
+		{27FE32BB-898F-4350-A822-BFCDC1F12668}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27FE32BB-898F-4350-A822-BFCDC1F12668}.Debug|Win32.Build.0 = Debug|Win32
+		{27FE32BB-898F-4350-A822-BFCDC1F12668}.Release|Win32.ActiveCfg = Release|Win32
+		{27FE32BB-898F-4350-A822-BFCDC1F12668}.Release|Win32.Build.0 = Release|Win32
+		{FBFD9110-4759-41E6-8FF5-B1041F7015A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBFD9110-4759-41E6-8FF5-B1041F7015A7}.Debug|Win32.Build.0 = Debug|Win32
+		{FBFD9110-4759-41E6-8FF5-B1041F7015A7}.Release|Win32.ActiveCfg = Release|Win32
+		{FBFD9110-4759-41E6-8FF5-B1041F7015A7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

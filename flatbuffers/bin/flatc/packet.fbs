@@ -1,0 +1,68 @@
+namespace PACKET;
+
+table PLAYER_DATA
+{
+	ID:int;
+	NAME:string;
+}
+
+// LOGIN + JOIN
+table REQ_JOIN 
+{
+	USER_NAME:string;
+	HASH:string;
+	USER_INDEX:int=0;	
+
+}
+
+table RES_JOIN 
+{
+	DATA:PLAYER_DATA;
+	PLAYER_DATAS:[PLAYER_DATA];
+}
+
+table JOINED
+{
+	DATA:PLAYER_DATA;
+}
+
+table REQ_LEAVE
+{
+	
+}
+
+table RES_LEAVE
+{
+	USER_INDEX:int;
+}
+
+table REQ_SPAWN
+{
+	MONSTER_ID:int=0;
+}
+
+table RES_SPAWN
+{
+	MONSTER_ID:int=0;
+}
+
+table REQ_READY
+{
+	
+}
+
+table RES_READY
+{
+	GAME_START:bool;
+}
+
+// SetMemCount 대신, container에 모든 멤버가 패킷을 보내면 전달하게 작업.
+table REQ_SEND
+{
+	MESSAGE:string;
+}
+
+table RES_SEND
+{
+	MESSAGE:[string];
+}

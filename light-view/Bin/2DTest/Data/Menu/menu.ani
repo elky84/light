@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animation>
+  <LayerInfo Layer = "0" TextureName = "back.png" LoopCount = "255" Effect = "0">
+    <FrameInfo Frame = "1"  Rotate = "0"
+      CutLeft = "0" CutTop = "0" CutRight = "1024" CutBottom = "768"
+      Left = "0" Top = "0" Right = "800" Bottom = "600" 
+      R = "255" G = "255" B = "255" A = "0"/>
+
+    <FrameInfo Frame = "100"  Rotate = "0"
+      CutLeft = "0" CutTop = "0" CutRight = "1024" CutBottom = "768"
+      Left = "0" Top = "0" Right = "800" Bottom = "600" 
+      R = "255" G = "255" B = "255" A = "255" />
+  </LayerInfo>
+</Animation>

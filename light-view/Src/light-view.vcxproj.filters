@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FmodEx">
+      <UniqueIdentifier>{18033cf7-d49e-45c9-8172-9d0c978f8221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Freetype2">
+      <UniqueIdentifier>{7f17e3d0-60d3-4f12-baed-d9929d945a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{fc7b73d4-61fa-4a17-8f3d-b55af5dfad29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D">
+      <UniqueIdentifier>{75df23a9-0e2d-4dfe-b413-9355cc156abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Texture">
+      <UniqueIdentifier>{61c9f3a5-2c12-4297-b2a6-c97304332483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Gui">
+      <UniqueIdentifier>{d8236fc3-e0fd-4e2a-85ad-5f3a7438c636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{41a12e4a-87dc-4407-a61d-a4fe43760497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{46602590-f897-4c8b-952b-1e0c25d38a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mode">
+      <UniqueIdentifier>{0d334190-d968-4f99-952f-5478bdab4b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\3D">
+      <UniqueIdentifier>{eb8de474-e86a-45f6-82eb-40693d180cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\3D\Camera">
+      <UniqueIdentifier>{dfd5c534-b3c6-4153-9df3-ff1194fe7698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\3D\Model">
+      <UniqueIdentifier>{41137747-53dc-41af-ab57-dbefbd71306e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Common">
+      <UniqueIdentifier>{d003491e-1252-448e-9cca-617ee9339ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\GuiManager">
+      <UniqueIdentifier>{7c1673a2-eb0a-4568-b47f-4cbfbea0e122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Crop">
+      <UniqueIdentifier>{8fcb4ef8-4e29-42a7-87b8-e1cc9ba3f803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Tile">
+      <UniqueIdentifier>{7868dd84-5842-4534-89bd-57b871e9b0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Primitive">
+      <UniqueIdentifier>{e474a779-b8e0-4e54-84f6-75068505beb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Frame">
+      <UniqueIdentifier>{f82f777a-78fe-455f-87ac-159e0eb4c29f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Animation">
+      <UniqueIdentifier>{757d2a11-48a9-49c5-b3d0-100e16d9e50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Layer">
+      <UniqueIdentifier>{4a7e1bcf-704b-42df-b033-1d530b84b95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Sprite">
+      <UniqueIdentifier>{a0ac0a88-2d04-4785-90af-1751c6b517bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\2D\Scroll">
+      <UniqueIdentifier>{3336c85b-4b94-4d7b-848e-65b47f74d4c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BgmPlayer.cpp">
+      <Filter>FmodEx</Filter>
+    </ClCompile>
+    <ClCompile Include="FmodEx.cpp">
+      <Filter>FmodEx</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeType2.cpp">
+      <Filter>Freetype2</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>DirectX\3D\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>DirectX\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButton.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiProgressBar.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiTooltip.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentDirectX.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Mode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeManager.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtility.cpp">
+      <Filter>DirectX\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>DirectX\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2D.cpp">
+      <Filter>DirectX\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="AllocateHierarchy.cpp">
+      <Filter>DirectX\3D\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>DirectX\3D\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="light-view.cpp" />
+    <ClCompile Include="GuiEditBox.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>DirectX\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>DirectX\GuiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiText.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Crop.cpp">
+      <Filter>DirectX\Crop</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>DirectX\2D\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePainter.cpp">
+      <Filter>DirectX\2D\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle2D.cpp">
+      <Filter>DirectX\2D\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2D.cpp">
+      <Filter>DirectX\2D\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>DirectX\2D\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite2D.cpp">
+      <Filter>DirectX\2D\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D.cpp">
+      <Filter>DirectX\2D\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame2D.cpp">
+      <Filter>DirectX\2D\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer2D.cpp">
+      <Filter>DirectX\2D\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiGroup.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll.cpp">
+      <Filter>DirectX\2D\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiListBox.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSlider.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPlaceholder.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScrollBar.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiImage.cpp">
+      <Filter>DirectX\Gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\BgmPlayer.h">
+      <Filter>FmodEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\FmodEx.h">
+      <Filter>FmodEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\FreeType2.h">
+      <Filter>Freetype2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Camera.h">
+      <Filter>DirectX\3D\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TextureManager.h">
+      <Filter>DirectX\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Gui.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiButton.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiProgressBar.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiTooltip.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EnvironmentDirectX.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\FrameSkip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Mode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ModeManager.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\D3DUtility.h">
+      <Filter>DirectX\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Direct3D.h">
+      <Filter>DirectX\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Direct2D.h">
+      <Filter>DirectX\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\AllocateHierarchy.h">
+      <Filter>DirectX\3D\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Model.h">
+      <Filter>DirectX\3D\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\light-view.h" />
+    <ClInclude Include="..\Include\GuiEditBox.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DirectX.h">
+      <Filter>DirectX\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiManager.h">
+      <Filter>DirectX\GuiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiText.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Crop.h">
+      <Filter>DirectX\Crop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Tile.h">
+      <Filter>DirectX\2D\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TilePainter.h">
+      <Filter>DirectX\2D\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rectangle2D.h">
+      <Filter>DirectX\2D\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Line2D.h">
+      <Filter>DirectX\2D\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Polygon2D.h">
+      <Filter>DirectX\2D\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Sprite2D.h">
+      <Filter>DirectX\2D\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Animation2D.h">
+      <Filter>DirectX\2D\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Frame2D.h">
+      <Filter>DirectX\2D\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Layer2D.h">
+      <Filter>DirectX\2D\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiGroup.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Scroll.h">
+      <Filter>DirectX\2D\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiListBox.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiSlider.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiPlaceholder.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiScrollBar.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GuiImage.h">
+      <Filter>DirectX\Gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0D236F4-7E19-4133-AE63-CDCB4495D91D}</ProjectGuid>
+    <RootNamespace>light-net</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Ylsymbol %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_59_0; ..\..\light-net\Include;..\..\light\Include; ..\..\TinyXml\Include; ..\..\dependencies\zlib\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(Configuration)/$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>../Intermediate/$(ProjectName)/$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>../Intermediate/$(ProjectName)/$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>../Intermediate/$(ProjectName)/$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <PrecompiledHeaderFile>light-net.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_59_0\lib; ..\..\light-net\Lib;..\..\light\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_59_0; ..\..\light-net\Include;..\..\light\Include; ..\..\TinyXml\Include; ..\..\dependencies\zlib\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(Configuration)/$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>../Intermediate/$(ProjectName)/$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>../Intermediate/$(ProjectName)/$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>../Intermediate/$(ProjectName)/$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <PrecompiledHeaderFile>light-net.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_59_0\lib; ..\..\light-net\Lib;..\..\light\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\NetStat.h" />
+    <ClInclude Include="..\Include\light-net.h" />
+    <ClInclude Include="..\Include\NetworkConfig.h" />
+    <ClInclude Include="..\Include\PacketStream.h" />
+    <ClInclude Include="..\Include\ConnectorInterface.h" />
+    <ClInclude Include="..\Include\ListenInterface.h" />
+    <ClInclude Include="..\Include\ConnectorEventSelect.h" />
+    <ClInclude Include="..\Include\EventSelectInterface.h" />
+    <ClInclude Include="..\Include\IoInterface.h" />
+    <ClInclude Include="..\Include\Socket.h" />
+    <ClInclude Include="..\Include\TCPSocket.h" />
+    <ClInclude Include="..\Include\UDPSocket.h" />
+    <ClInclude Include="..\Include\P2PAsyncSelect.h" />
+    <ClInclude Include="..\Include\P2PCommon.h" />
+    <ClInclude Include="..\Include\P2PEventSelect.h" />
+    <ClInclude Include="..\Include\P2PInterface.h" />
+    <ClInclude Include="..\Include\P2PPeer.h" />
+    <ClInclude Include="..\Include\P2PRelay.h" />
+    <ClInclude Include="..\Include\P2PRelayCommon.h" />
+    <ClInclude Include="..\Include\P2PRelayConnector.h" />
+    <ClInclude Include="..\Include\P2PRelayPeer.h" />
+    <ClInclude Include="..\Include\P2PRelayPeerEx.h" />
+    <ClInclude Include="..\Include\IocpContext.h" />
+    <ClInclude Include="..\Include\IocpInterface.h" />
+    <ClInclude Include="..\Include\Acceptor.h" />
+    <ClInclude Include="..\Include\Listener.h" />
+    <ClInclude Include="..\Include\Connector.h" />
+    <ClInclude Include="..\Include\Session.h" />
+    <ClInclude Include="..\Include\SessionManager.h" />
+    <ClInclude Include="..\Include\IocpWorker.h" />
+    <ClInclude Include="..\Include\IocpThreadManager.h" />
+    <ClInclude Include="..\Include\NetAdapter.h" />
+    <ClInclude Include="..\Include\EventWorker.h" />
+    <ClInclude Include="..\Include\Pipe.h" />
+    <ClInclude Include="..\Include\PipeClient.h" />
+    <ClInclude Include="..\Include\PipeContext.h" />
+    <ClInclude Include="..\Include\PipeServer.h" />
+    <ClInclude Include="..\Include\Peer.h" />
+    <ClInclude Include="..\Include\PeerEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConnectorInterface.cpp" />
+    <ClCompile Include="NetStat.cpp" />
+    <ClCompile Include="light-net.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ListenInterface.cpp" />
+    <ClCompile Include="ConnectorEventSelect.cpp" />
+    <ClCompile Include="EventSelectInterface.cpp" />
+    <ClCompile Include="IoInterface.cpp" />
+    <ClCompile Include="NetworkConfig.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="TCPSocket.cpp" />
+    <ClCompile Include="UDPSocket.cpp" />
+    <ClCompile Include="P2PAsyncSelect.cpp" />
+    <ClCompile Include="P2PEventSelect.cpp" />
+    <ClCompile Include="P2PInterface.cpp" />
+    <ClCompile Include="P2PPeer.cpp" />
+    <ClCompile Include="P2PRelay.cpp" />
+    <ClCompile Include="P2PRelayConnector.cpp" />
+    <ClCompile Include="P2PRelayPeer.cpp" />
+    <ClCompile Include="P2PRelayPeerEx.cpp" />
+    <ClCompile Include="IocpInterface.cpp" />
+    <ClCompile Include="Acceptor.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Connector.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionManager.cpp" />
+    <ClCompile Include="IocpWorker.cpp" />
+    <ClCompile Include="IocpThreadManager.cpp" />
+    <ClCompile Include="NetAdapter.cpp" />
+    <ClCompile Include="Pipe.cpp" />
+    <ClCompile Include="PipeClient.cpp" />
+    <ClCompile Include="PipeContext.cpp" />
+    <ClCompile Include="PipeServer.cpp" />
+    <ClCompile Include="Peer.cpp" />
+    <ClCompile Include="PeerEx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

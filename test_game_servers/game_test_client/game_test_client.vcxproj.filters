@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="game_test_client">
+      <UniqueIdentifier>{321e8b73-7375-49e8-be84-67718251c01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flatbuffers_generated">
+      <UniqueIdentifier>{5ffd43a2-4c15-4a8e-8d99-a80e359b60bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="peer">
+      <UniqueIdentifier>{e8ab94ee-05bd-407e-ac49-55d0c0c1282f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="server_peer.cpp">
+      <Filter>peer</Filter>
+    </ClCompile>
+    <ClCompile Include="game_test_client.cpp">
+      <Filter>game_test_client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="server_peer.h">
+      <Filter>peer</Filter>
+    </ClInclude>
+    <ClInclude Include="game_test_client.h">
+      <Filter>game_test_client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\flatbuffers_generated\packet_generated.h">
+      <Filter>flatbuffers_generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

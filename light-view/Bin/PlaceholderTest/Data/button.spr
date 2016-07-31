@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "button.jpg"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "200" CutBottom = "50" Left = "0" Top = "0" Right = "200" Bottom = "30" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+	<FrameInfo CutLeft = "200" CutTop = "0" CutRight = "400" CutBottom = "50" Left = "0" Top = "0" Right = "200" Bottom = "30" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+	<FrameInfo CutLeft = "200" CutTop = "0" CutRight = "400" CutBottom = "50" Left = "0" Top = "0" Right = "200" Bottom = "30" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

@@ -1,0 +1,22 @@
+<ExcelList>
+	<Excel File = ".\Excel\Character_formula.xlsx">
+		<Sheet Name = "Character_Formula" Namespace = "Instance" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Character.xlsx">
+		<Sheet Name = "Character" Namespace = "Instance" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Class.xlsx">
+		<Sheet Name = "Class" Namespace = "Instance" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Deck.xlsx">
+		<Sheet Name = "Deck" Namespace = "Instance" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\TendencyTest.xlsx">
+		<Sheet Name = "TendencyTest" Namespace = "Instance" Key = "Index"/>
+	</Excel>
+
+</ExcelList>

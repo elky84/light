@@ -1,0 +1,14 @@
+<ExcelList>
+	<Excel File = ".\Excel\Character_formula.xlsx">
+		<Sheet Name = "Character_Formula" Namespace = "Instance"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Character.xlsx">
+		<Sheet Name = "Character" Namespace = "Instance"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Class.xlsx">
+		<Sheet Name = "Class" Namespace = "Instance"/>
+	</Excel>
+
+</ExcelList>

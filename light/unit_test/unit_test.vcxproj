@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27FE32BB-898F-4350-A822-BFCDC1F12668}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>..\intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>..\bin\$(ProjectName)\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>..\intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>..\bin\$(ProjectName)\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_59_0;..\..\light\include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include;..\..\flatbuffers</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_59_0\lib; ..\..\light\lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>$(TargetPath) --gtest_catch_exceptions --gtest_output=xml:"$(ProjectName)\UnitTestResults.xml"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_59_0;..\..\light\include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include;..\..\flatbuffers</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_59_0\lib; ..\..\light\lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>light.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>$(TargetPath) --gtest_catch_exceptions --gtest_output=xml:"$(ProjectName)\UnitTestResults.xml"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="double_queue_test.cpp" />
+    <ClCompile Include="flatbuffers_helper_test.cpp" />
+    <ClCompile Include="flatbuffers_test.cpp" />
+    <ClCompile Include="iosp_test.cpp" />
+    <ClCompile Include="json_parser_test.cpp" />
+    <ClCompile Include="lambda_test.cpp" />
+    <ClCompile Include="lockfree_stack_test.cpp" />
+    <ClCompile Include="perfomance_counter_test.cpp" />
+    <ClCompile Include="repository_test.cpp" />
+    <ClCompile Include="serializer_test.cpp" />
+    <ClCompile Include="bit_operator_test.cpp" />
+    <ClCompile Include="boost_multi_index_test.cpp" />
+    <ClCompile Include="boost_pool_test.cpp" />
+    <ClCompile Include="boost_random_test.cpp" />
+    <ClCompile Include="chaining_test.cpp" />
+    <ClCompile Include="command_line_arguments_test.cpp" />
+    <ClCompile Include="dispatcher_test.cpp" />
+    <ClCompile Include="lockfree_queue_Test.cpp" />
+    <ClCompile Include="fsm_test.cpp" />
+    <ClCompile Include="profiler_test.cpp" />
+    <ClCompile Include="reload_container_test.cpp" />
+    <ClCompile Include="tick_test.cpp" />
+    <ClCompile Include="file_util_test.cpp" />
+    <ClCompile Include="interpolation_test.cpp" />
+    <ClCompile Include="linear_buffer_test.cpp" />
+    <ClCompile Include="list_test.cpp" />
+    <ClCompile Include="macro_test.cpp" />
+    <ClCompile Include="mark_up_test.cpp" />
+    <ClCompile Include="matrix3_test.cpp" />
+    <ClCompile Include="matrix4_test.cpp" />
+    <ClCompile Include="memory_util_test.cpp" />
+    <ClCompile Include="physics_test.cpp" />
+    <ClCompile Include="position_test.cpp" />
+    <ClCompile Include="queue_test.cpp" />
+    <ClCompile Include="random_table_test.cpp" />
+    <ClCompile Include="random_test.cpp" />
+    <ClCompile Include="smart_singleton_test.cpp" />
+    <ClCompile Include="stack_test.cpp" />
+    <ClCompile Include="statistics_test.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stream_test.cpp" />
+    <ClCompile Include="str_test.cpp" />
+    <ClCompile Include="timed_worker_test.cpp" />
+    <ClCompile Include="vector3d_test.cpp" />
+    <ClCompile Include="vector_test.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="xml_parser_test.cpp" />
+    <ClCompile Include="xml_writer_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="packet_generated.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

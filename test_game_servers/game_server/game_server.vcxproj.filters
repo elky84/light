@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="game_server">
+      <UniqueIdentifier>{7f4054c4-6638-456d-8318-bfe62d35a7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="channel">
+      <UniqueIdentifier>{b50b6dc3-465b-40f1-bfc6-a47270d3046d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="peer">
+      <UniqueIdentifier>{0bd9aa6c-c6c5-4b23-b479-ad4d66111497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flatbuffers_generated">
+      <UniqueIdentifier>{2ec312e5-5bad-4c40-8d16-aa3266f80973}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game_server.cpp">
+      <Filter>game_server</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_manager.cpp">
+      <Filter>channel</Filter>
+    </ClCompile>
+    <ClCompile Include="client_peer.cpp">
+      <Filter>peer</Filter>
+    </ClCompile>
+    <ClCompile Include="channel.cpp">
+      <Filter>channel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game_server.h">
+      <Filter>game_server</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_manager.h">
+      <Filter>channel</Filter>
+    </ClInclude>
+    <ClInclude Include="client_peer.h">
+      <Filter>peer</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\flatbuffers_generated\packet_generated.h">
+      <Filter>flatbuffers_generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

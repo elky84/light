@@ -1,0 +1,8 @@
+# Build Intermediate directories
+Lib/
+
+*_Release.exe
+*_Release.exe.manifest
+*_Release.exe.pdb
+
+*.vcxproj.user
