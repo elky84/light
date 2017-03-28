@@ -1,8 +1,12 @@
-# Build Intermediate directories
-Lib/
+# ignore unity temponary files
+*.user
 
-*_Release.exe
-*_Release.exe.manifest
-*_Release.exe.pdb
+# ignore json
+#*.json
 
-*.vcxproj.user
+obj/
+
+bin/
+
+
+*.lib
