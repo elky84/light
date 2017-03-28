@@ -4,9 +4,9 @@
 #include "TextureManager.h"
 
 #ifdef _DEBUG
-#pragma comment(lib, "freetype271d.lib")
+#pragma comment(lib, "freetype271MTd.lib")
 #else // _DEBUG
-#pragma comment(lib, "freetype271.lib")
+#pragma comment(lib, "freetype271MT.lib")
 #endif // _DEBUG
 
 namespace light
