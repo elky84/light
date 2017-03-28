@@ -114,7 +114,7 @@ bool FmodEx::Play()
 	if( false == m_load )
 		return false;
 
-	FMOD_RESULT result = m_system->playSound(FMOD_CHANNEL_FREE, m_sound, false, &m_channel);
+	FMOD_RESULT result = m_system->playSound(m_sound, nullptr, false, &m_channel);
 	if ( result != FMOD_OK )
 	{
         LOG_ERROR(L"%s", FMOD_ErrorString(result));

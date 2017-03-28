@@ -5,7 +5,7 @@
 #include <fmod_errors.h>
 #include <fmod.hpp>
 
-#pragma comment(lib, "fmodex_vc.lib")
+#pragma comment(lib, "fmod_vc.lib")
 
 namespace light
 {

@@ -61,14 +61,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\fmod\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_63\Lib;  ..\..\Dependencies\Fmodex\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_63\Lib;  ..\..\Dependencies\fmod\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
       <AdditionalDependencies>light-view_D.lib;light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
@@ -82,7 +82,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\fmod\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -93,7 +93,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>light-view.lib;light.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_63\Lib;  ..\..\Dependencies\Fmodex\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_63\Lib;  ..\..\Dependencies\fmod\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>
