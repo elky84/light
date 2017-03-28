@@ -21,14 +21,14 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="kiteDBUnitTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="KompexSQLiteWrapperTest.cpp">
       <Filter>Test</Filter>
     </ClCompile>
     <ClCompile Include="SQLiteHelperTest.cpp">
       <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_test.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

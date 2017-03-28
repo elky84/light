@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -14,18 +14,19 @@
     <ProjectGuid>{18B1E8DA-924A-4D28-A48D-62E618884167}</ProjectGuid>
     <RootNamespace>My3DTest</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,7 +60,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_59_0; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -72,7 +73,7 @@
     <Link>
       <AdditionalDependencies>light-view_D.lib;light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_59_0\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_59_0\Lib;  ..\..\Dependencies\Fmodex\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_63\Lib;  ..\..\Dependencies\Fmodex\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -82,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_59_0; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\Fmodex\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -93,7 +94,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>light-view.lib;light.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_59_0\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_59_0\Lib;  ..\..\Dependencies\Fmodex\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_63\Lib;  ..\..\Dependencies\Fmodex\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

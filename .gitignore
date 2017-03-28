@@ -59,9 +59,14 @@ wise/bin/unit_test/Test.bin
 wise/bin/unit_test/elky.dat
 
 
+# ignore vs user files.
+*.user
 
 # ignore vs db
 *.VC.db
+
+#ignore vs temp files.
+.vs/
 
 # ignore dependencies
 dependencies/

@@ -28,9 +28,6 @@
     <ClInclude Include="..\Include\SQLiteConverter.h">
       <Filter>SQLite</Filter>
     </ClInclude>
-    <ClInclude Include="..\Include\MongoDBHelper.h">
-      <Filter>MongoDB</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Odbc.cpp">
@@ -39,9 +36,6 @@
     <ClCompile Include="light-db.cpp" />
     <ClCompile Include="SQLiteHelper.cpp">
       <Filter>SQLite</Filter>
-    </ClCompile>
-    <ClCompile Include="MongoDBHelper.cpp">
-      <Filter>MongoDB</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

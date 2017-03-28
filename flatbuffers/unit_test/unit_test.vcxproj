@@ -64,13 +64,13 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_59_0;..\..\flatbuffers;..\..\light\Include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_63;..\..\flatbuffers;..\..\light\Include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_59_0\lib;..\..\light\lib;..\..\Boost\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_63\lib;..\..\light\lib;..\..\Boost\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
     </Link>
@@ -90,14 +90,14 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_59_0;..\..\flatbuffers;..\..\light\Include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_63;..\..\flatbuffers;..\..\light\Include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_59_0\lib;..\..\light\lib;..\..\Boost\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_63\lib;..\..\light\lib;..\..\Boost\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>light.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>
