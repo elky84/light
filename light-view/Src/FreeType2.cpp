@@ -3,7 +3,11 @@
 #include "DirectX.h"
 #include "TextureManager.h"
 
-#pragma comment(lib, "freetype.lib")
+#ifdef _DEBUG
+#pragma comment(lib, "freetype271d.lib")
+#else // _DEBUG
+#pragma comment(lib, "freetype271.lib")
+#endif // _DEBUG
 
 namespace light
 {

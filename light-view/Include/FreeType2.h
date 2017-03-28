@@ -4,6 +4,7 @@
 #include <freetype/freetype.h>
 
 #include <map>
+#include <vector>
 
 #include "Rectangle.h"
 #include "Position.h"
