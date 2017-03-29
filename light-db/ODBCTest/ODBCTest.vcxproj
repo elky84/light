@@ -65,13 +65,13 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-db\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0; ..\..\light-db\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\light-db\Lib;..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; ..\..\light-db\Lib;..\..\light\Lib; </AdditionalLibraryDirectories>
       <AdditionalDependencies>light-db_D.Lib;light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <IgnoreSpecificDefaultLibraries>
@@ -87,14 +87,14 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63; ..\..\light-db\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0; ..\..\light-db\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; ..\..\light-db\Lib;..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; ..\..\light-db\Lib;..\..\light\Lib; </AdditionalLibraryDirectories>
       <AdditionalDependencies>light-db.Lib;light.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>

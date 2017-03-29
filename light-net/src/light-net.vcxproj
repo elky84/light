@@ -51,7 +51,7 @@
       <AdditionalOptions>/Ylsymbol %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Full</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_63; ..\..\light-net\Include;..\..\light\Include; ..\..\TinyXml\Include; ..\..\dependencies\zlib\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0; ..\..\light-net\Include;..\..\light\Include; ..\..\TinyXml\Include; ..\..\dependencies\zlib\include;</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -71,13 +71,13 @@
     </ResourceCompile>
     <Lib>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_63\lib; ..\..\light-net\Lib;..\..\light\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_64_0\lib; ..\..\light-net\Lib;..\..\light\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_63; ..\..\light-net\Include;..\..\light\Include; ..\..\TinyXml\Include; ..\..\dependencies\zlib\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0; ..\..\light-net\Include;..\..\light\Include; ..\..\TinyXml\Include; ..\..\dependencies\zlib\include;</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -98,7 +98,7 @@
     </ResourceCompile>
     <Lib>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_63\lib; ..\..\light-net\Lib;..\..\light\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_64_0\lib; ..\..\light-net\Lib;..\..\light\lib; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>

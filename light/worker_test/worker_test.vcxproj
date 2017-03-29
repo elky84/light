@@ -65,13 +65,13 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_63; ..\..\light\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0; ..\..\light\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_63\lib; ..\..\light\lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_64_0\lib; ..\..\light\lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
     </Link>
@@ -84,14 +84,14 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_63; ..\..\light\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0; ..\..\light\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_63\lib; ..\..\light\lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\boost_1_64_0\lib; ..\..\light\lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>light.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>

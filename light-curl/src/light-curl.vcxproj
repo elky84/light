@@ -64,7 +64,7 @@
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63;..\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;..\..\light\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;..\..\light\Include</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>light-curl.hpp</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -75,7 +75,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; 
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; 
       </AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>
@@ -89,7 +89,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63;..\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;..\..\light\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;..\..\light\Include</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>light-curl.hpp</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -101,7 +101,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib; 
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; 
       </AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>

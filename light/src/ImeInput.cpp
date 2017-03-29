@@ -1,6 +1,8 @@
 #include "light.h"
 #include "ImeInput.h"
 
+#include "str.h"
+
 #pragma comment(lib, "Imm32.lib")
 #pragma comment(lib, "Version.lib")
 

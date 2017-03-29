@@ -54,7 +54,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_63; ..\..\light-net\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_64_0; ..\..\light-net\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -68,7 +68,7 @@
     <Link>
       <AdditionalDependencies>light-net_D.Lib;light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_63\lib; ..\..\light-net\Lib;..\..\light\lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_64_0\lib; ..\..\light-net\Lib;..\..\light\lib; </AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
@@ -78,7 +78,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_63; ..\..\light-net\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\zlib\include;..\..\dependencies\boost_1_64_0; ..\..\light-net\Include;..\..\light\Include;  (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -90,7 +90,7 @@
     <Link>
       <AdditionalDependencies>light-net.Lib;light.Lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_63\lib; ..\..\light-net\Lib;..\..\light\lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\dependencies\zlib\bin;..\..\dependencies\boost_1_64_0\lib; ..\..\light-net\Lib;..\..\light\lib; </AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>

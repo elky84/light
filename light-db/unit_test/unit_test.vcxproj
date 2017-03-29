@@ -57,7 +57,7 @@
     </CustomBuildStep>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63;..\..\light-db\Include;..\..\light\Include;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\inc;%(AdditionalIncludeDirectories);..\..\Dependencies\gmock-1.7.0\gtest\include;..\..\Dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\..\light-db\Include;..\..\light\Include;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\inc;%(AdditionalIncludeDirectories);..\..\Dependencies\gmock-1.7.0\gtest\include;..\..\Dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_VARIADIC_MAX=10;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -71,7 +71,7 @@
     <Link>
       <AdditionalDependencies>light-db_D.lib;light_D.lib;%(AdditionalDependencies);KompexSQLiteWrapper_Static_d.lib;</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\lib\debug;..\..\light-db\Lib;..\..\light\Lib;..\..\CppSQLite\Common;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\lib\debug;..\..\light-db\Lib;..\..\light\Lib;..\..\CppSQLite\Common;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
@@ -87,7 +87,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_63;..\..\light-db\Include;..\..\light\Include;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\inc;%(AdditionalIncludeDirectories);..\..\Dependencies\gmock-1.7.0\gtest\include;..\..\Dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\..\light-db\Include;..\..\light\Include;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\inc;%(AdditionalIncludeDirectories);..\..\Dependencies\gmock-1.7.0\gtest\include;..\..\Dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_VARIADIC_MAX=10;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -99,7 +99,7 @@
     <Link>
       <AdditionalDependencies>light-db.lib;light.lib;%(AdditionalDependencies);KompexSQLiteWrapper_Static.lib;</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_63\lib;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\lib\release;..\..\light-db\Lib;..\..\light\Lib;..\..\CppSQLite\Common;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib;..\..\light-db\KompexSQLiteWrapper-Source_1.8.10\lib\release;..\..\light-db\Lib;..\..\light\Lib;..\..\CppSQLite\Common;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
