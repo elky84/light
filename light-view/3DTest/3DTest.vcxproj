@@ -60,7 +60,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\fmod\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0; ..\..\light-view\Include; ..\..\Dependencies\dx9\Include; ..\..\Dependencies\fmod\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -73,7 +73,7 @@
     <Link>
       <AdditionalDependencies>light-view_D.lib;light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_64_0\Lib;  ..\..\Dependencies\fmod\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; ..\..\Dependencies\dx9\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_64_0\Lib;  ..\..\Dependencies\fmod\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0; ..\..\light-view\Include; ..\..\Dependencies\Dx\Include; ..\..\Dependencies\fmod\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0; ..\..\light-view\Include; ..\..\Dependencies\dx9\Include; ..\..\Dependencies\fmod\Inc ; ..\..\Dependencies\freetype2\Include; ..\..\light\Include ; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -94,7 +94,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>light-view.lib;light.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; ..\..\Dependencies\Dx\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_64_0\Lib;  ..\..\Dependencies\fmod\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Dependencies\boost_1_64_0\lib; ..\..\Dependencies\dx9\Lib\x86  ; ..\..\light-view\Lib; ..\..\Dependencies\boost_1_64_0\Lib;  ..\..\Dependencies\fmod\Lib; ..\..\Dependencies\freetype2\Lib; ..\..\light\Lib; </AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

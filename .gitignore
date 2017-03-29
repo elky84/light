@@ -45,9 +45,6 @@
 Intermediate/
 Debug/
 
-# heavy dependency files.
-Dependencies/
-
 # UnitTestResults.xml
 UnitTestResults.xml
 
@@ -67,6 +64,3 @@ wise/bin/unit_test/elky.dat
 
 #ignore vs temp files.
 .vs/
-
-# ignore dependencies
-dependencies/
