@@ -6,9 +6,9 @@
 #include <gmock/gmock.h>
 
 #ifdef _DEBUG
-#pragma comment(lib, "..\\..\\Dependencies\\gmock-1.7.0\\gtest\\msvc\\gtest\\debug\\gtestd.lib")
-#pragma comment(lib, "..\\..\\Dependencies\\gmock-1.7.0\\msvc\\2015\\debug\\gmock.lib")
+#pragma comment(lib, "..\\..\\Dependencies\\googletest\\googletest\\msvc\\gtest\\debug\\gtestd.lib")
+#pragma comment(lib, "..\\..\\Dependencies\\googletest\\googlemock\\msvc\\2017\\debug\\gmock.lib")
 #else //_DEBUG
-#pragma comment(lib, "..\\..\\Dependencies\\gmock-1.7.0\\gtest\\msvc\\gtest\\release\\gtest.lib")
-#pragma comment(lib, "..\\..\\Dependencies\\gmock-1.7.0\\msvc\\2015\\release\\gmock.lib")
+#pragma comment(lib, "..\\..\\Dependencies\\googletest\\googletest\\msvc\\gtest\\release\\gtest.lib")
+#pragma comment(lib, "..\\..\\Dependencies\\googletest\\googlemock\\msvc\\2017\\release\\gmock.lib")
 #endif //_DEBUG

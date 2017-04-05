@@ -65,7 +65,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0;..\..\light\include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include;..\..\flatbuffers</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0;..\..\light\include;%(AdditionalIncludeDirectories);..\..\dependencies\googletest\googletest\include;..\..\dependencies\googletest\googlemock\include;..\..\flatbuffers</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -87,7 +87,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0;..\..\light\include;%(AdditionalIncludeDirectories);..\..\dependencies\gmock-1.7.0\gtest\include;..\..\dependencies\gmock-1.7.0\include;..\..\flatbuffers</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\dependencies\boost_1_64_0;..\..\light\include;%(AdditionalIncludeDirectories);..\..\dependencies\googletest\googletest\include;..\..\dependencies\googletest\googlemock\include;..\..\flatbuffers</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
