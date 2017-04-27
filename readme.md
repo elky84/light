@@ -3,7 +3,7 @@
 - author : elky
 - need a boost, google-mock, direct-x 9.0c, zlib.
 
-#[wrapper]
+# [wrapper]
 ## flatbuffers
 * flatbuffers wrapper & test.
 * [flatbuffers](https://google.github.io/flatbuffers/)
@@ -53,7 +53,7 @@
 * unity_game_test [socket + flatbuffers]
 * unity_socket_test [socket]
 
-#[features]
+# [features]
 ## relay_servers
 * relay server. [socket + flatbuffers + redis]
 
