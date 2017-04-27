@@ -57,7 +57,7 @@
     </CustomBuildStep>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\..\light-curl\Include;..\..\light\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;%(AdditionalIncludeDirectories);..\..\Dependencies\gmock-1.7.0\gtest\include;..\..\Dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\..\light-curl\Include;..\..\light\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;%(AdditionalIncludeDirectories);..\..\dependencies\googletest\googletest\include;..\..\dependencies\googletest\googlemock\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>CURL_STATICLIB;_VARIADIC_MAX=10;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -87,7 +87,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\..\light-curl\Include;..\..\light\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;%(AdditionalIncludeDirectories);..\..\Dependencies\gmock-1.7.0\gtest\include;..\..\Dependencies\gmock-1.7.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Dependencies\boost_1_64_0;..\..\light-curl\Include;..\..\light\Include;..\..\light-curl\\libcurl-7.19.3-win32-ssl-msvc\include;%(AdditionalIncludeDirectories);..\..\dependencies\googletest\googletest\include;..\..\dependencies\googletest\googlemock\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>CURL_STATICLIB;_VARIADIC_MAX=10;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
