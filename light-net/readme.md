@@ -1,14 +1,14 @@
 light-net.
 > GNU GPL(General Public License) license.
 
-##Network Thread Policy.
+## Network Thread Policy.
 * light-net using spin-lock. [boost]
 
-##Network Thread Category
+## Network Thread Category
 1. IOCP Session Thread. [on_receieve, receive, on_reuse, on_send, on_connect, on_connect_failed by connector]
 2. Accept Thread. [only on_connect, on_connect_failed by listener]
 
-##Common Socket Events
+## Common Socket Events
 [receieve : without lock]
 
 * receive : iocp thread
@@ -34,14 +34,14 @@ light-net.
 * send : user thread
 * on_send : iocp thread
 
-##Lisneter's Socket Events
+## Lisneter's Socket Events
 [connect : without lock]
 
 * connect : iocp thread
 * on_connected : iocp thread
 * on_connect_failed : iocp thread
 
-##Connector's Socket Events
+## Connector's Socket Events
 [connect : without lock, using atomic operation]
 
 * connect : user thread
@@ -49,4 +49,4 @@ light-net.
 * on_connect_failed : iocp thread
  
 ### Link
-[blog](http://elky.tistory.com)
+[blog](http://elky84.github.io)
