@@ -97,11 +97,11 @@ bool game_server::initialize()
     {
         if (!status)
         {
-            LOG_ERROR(L"Can't connect to to redis. [%S, %d] [%S]", address.to_string().c_str(), m_port, err.c_str());
+            LOG_ERROR(L"Can't connect to to redis. [%S, %d] [%s]", m_host.c_str(), m_port, STRING_TO_WSTRING(err));
         }
         else
         {
-            LOG_INFO(L"connect success redis. pve_subscriber. [%S, %d] [%S]", address.to_string().c_str(), m_port, err.c_str());
+            LOG_INFO(L"connect success redis. pve_subscriber. [%S, %d] [%S]", m_host.c_str(), m_port, STRING_TO_WSTRING(err));
             m_pve_subscriber->subscribe(pve_channelName, boost::bind(&game_server::pve_subscribe_handler, this, _1));
         }
     });
@@ -111,11 +111,11 @@ bool game_server::initialize()
     {
         if (!status)
         {
-            LOG_ERROR(L"Can't connect to to redis. [%S, %d] [%S]", address.to_string().c_str(), m_port, err.c_str());
+            LOG_ERROR(L"Can't connect to to redis. [%S, %d] [%S]", m_host.c_str(), m_port, STRING_TO_WSTRING(err));
         }
         else
         {
-            LOG_INFO(L"connect success redis. pve_list_subscriber. [%S, %d] [%S]", address.to_string().c_str(), m_port, err.c_str());
+            LOG_INFO(L"connect success redis. pve_list_subscriber. [%S, %d] [%S]", m_host.c_str(), m_port, STRING_TO_WSTRING(err));
             m_pve_list_subscriber->subscribe(req_pve_list_channelName, boost::bind(&game_server::pve_list_subscribe_handler, this, _1));
         }
     });

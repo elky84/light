@@ -21,7 +21,7 @@ EnvironmentManager::EnvironmentManager(const std::wstring& program_name, const s
 	Directory::set_current_directory(get_module_path()); // 바이너리 생성 경로를 현재 디렉토리로 지정하자.
 	LogHelper::initialize();
 
-	std::locale::global(std::locale("kor")); //유니코드 한글 출력을 위한 것!
+	std::locale::global(std::locale("Korean"));
 
 	CustomExceptionHandler::Install();
 
