@@ -13,7 +13,7 @@
 * [redis](http://redis.io/)
 * [redisclient](https://github.com/nekipelov/redisclient)
 
-#[libriries]
+# [libraries]
 ## light
 * common feature library.
 
@@ -60,5 +60,5 @@
 ## test_game_servers
 * test server exmamples. [socket + flatbuffers]
  
-## # Link
+## [Link]
 [blog](http://elky84.github.io)
