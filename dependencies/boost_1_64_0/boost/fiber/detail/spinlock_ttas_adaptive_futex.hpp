@@ -20,22 +20,14 @@
 // https://software.intel.com/en-us/articles/benefitting-power-and-performance-sleep-loops
 // https://software.intel.com/en-us/articles/long-duration-spin-wait-loops-on-hyper-threading-technology-enabled-intel-processors
 
-#if BOOST_COMP_CLANG
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wunused-private-field"
-#endif
-
 namespace boost {
 namespace fibers {
 namespace detail {
 
 class spinlock_ttas_adaptive_futex {
 private:
-    // align shared variable 'value_' at cache line to prevent false sharing
-    alignas(cache_alignment) std::atomic< std::int32_t >    value_{ 0 };
-    std::atomic< std::int32_t >                             tests_{ 0 };
-    // padding to avoid other data one the cacheline of shared variable 'value_'
-    char                                                    pad_[cacheline_length];
+    std::atomic< std::int32_t >     value_{ 0 };
+    std::atomic< std::int32_t >     tests_{ 0 };
 
 public:
     spinlock_ttas_adaptive_futex() noexcept = default;
@@ -79,8 +71,8 @@ public:
                 // utilize 'Binary Exponential Backoff' algorithm
                 // linear_congruential_engine is a random number engine based on Linear congruential generator (LCG)
                 static thread_local std::minstd_rand generator;
-                const std::int32_t z = std::uniform_int_distribution< std::int32_t >{
-                    0, static_cast< std::int32_t >( 1) << collisions }( generator);
+                static std::uniform_int_distribution< std::int32_t > distribution{ 0, static_cast< std::int32_t >( 1) << collisions };
+                const std::int32_t z = distribution( generator);
                 ++collisions;
                 for ( std::int32_t i = 0; i < z; ++i) {
                     // -> reduces the power consumed by the CPU
@@ -115,9 +107,5 @@ public:
 };
 
 }}}
-
-#if BOOST_COMP_CLANG
-#pragma clang diagnostic pop
-#endif
 
 #endif // BOOST_FIBERS_SPINLOCK_TTAS_ADAPTIVE_FUTEX_H

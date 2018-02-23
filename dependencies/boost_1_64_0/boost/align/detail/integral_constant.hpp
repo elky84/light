@@ -36,10 +36,13 @@ struct integral_constant {
 
     BOOST_STATIC_CONSTEXPR T value = Value;
 };
+
+template<class T, T Value>
+BOOST_CONSTEXPR_OR_CONST T integral_constant<T, Value>::value;
 #endif
 
-} /* .detail */
-} /* .alignment */
-} /* .boost */
+} /* detail */
+} /* alignment */
+} /* boost */
 
 #endif
