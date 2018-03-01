@@ -29,7 +29,6 @@ bool Socket::close_socket(SOCKET& socket)
 {
 	if(socket == INVALID_SOCKET)
 	{
-		LOG_INFO(L"socket == INVALID_SOCKET.");
 		return false;
 	}
 

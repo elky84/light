@@ -292,14 +292,20 @@ bool Session::on_receive(light::net::PACKET_SIZE len)
         if (err == 64 || err == 0 || err == 997)
         {
             LOG_TRACE(L"%d client_close. Err[%d]", get_idx(), err);
-            disconnect(RESULT_CODE::GQCS);
+            disconnect(RESULT_CODE::CLOSE_ACTION);
             return false;
         }
         else if(err == WSA_IO_PENDING) // 수신이 0이면서, WSA_IO_PENDING 이면 수신 시그널 트리거를 다시 걸어준다.
         {
             receive();
-            return false;
+            return true;
         }
+		else
+		{
+			LOG_TRACE(L"%d. Err[%d]", get_idx(), err);
+			disconnect(RESULT_CODE::GQCS);
+			return false;
+		}
     }
 
 	if(false == m_receive_context->write(len))
@@ -383,16 +389,14 @@ void Session::reuse()
     {
         LOG_TRACE(L"TransmitFile() immediately success [%d] [%d] [%S:%d]", WSAGetLastError(), get_idx(), get_ip().c_str(), get_port());
         on_reuse(RESULT_CODE::SUCCESS);
-    }
-    else
-    {
-        if (WSAGetLastError() != WSA_IO_PENDING) //WSA_IO_PENDING이 아닐 경우에는 진짜 실패. WSA_IO_PENDING은 다음 시그널이 도착한다.
-        {
-            LOG_ERROR(L"TransmitFile() Fail [%d] [%d] [%S:%d]", WSAGetLastError(), get_idx(), get_ip().c_str(), get_port());
-            on_reuse(RESULT_CODE::TRANSMITFILE_FAILED);
-            return;
-        }
-    }
+		return;
+	}
+
+	if (WSAGetLastError() == WSA_IO_PENDING) // WSA_IO_PENDING은 다음 시그널이 도착한다. 즉 지금은 바로 처리안하고 패스해도 됨.
+		return;
+
+	LOG_ERROR(L"TransmitFile() Fail [%d] [%d] [%S:%d]", WSAGetLastError(), get_idx(), get_ip().c_str(), get_port());
+    on_reuse(RESULT_CODE::TRANSMITFILE_FAILED);
 }
 
 void Session::set_connected(bool flag)

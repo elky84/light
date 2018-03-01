@@ -76,7 +76,7 @@ bool game_server::initialize()
     m_channel_manager->start();
 
 #ifdef _DEBUG
-    INT32 peer_count = 100;
+    INT32 peer_count = 1000;
 #else _DEBUG
     INT32 peer_count = 5000;
 #endif // _DEBUG
