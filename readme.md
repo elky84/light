@@ -80,3 +80,7 @@ thread간 겹치는 변수에 대한 접근 및 변경은 std::atomic을 통해 
 
 * 채널 생성 및 관리 등 채널에 접근하는 스레드 지정 -> channel_manager_strand_position
 * 해당 채널 내의 스레드 지정 -> channel_strand_position
+
+![server_profiling](./server_profiling.png)
+
+![client_profiling](./client_profiling.png)
