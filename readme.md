@@ -1,3 +1,10 @@
+![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)
+![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)
+![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)
+![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)
+
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 ## 서비스화 [EnvironmentService를 사용시에 한정]
 * 설치 : 실행파일.exe /install
 * 제거 : 실행파일.exe /uninstall
