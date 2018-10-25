@@ -5,7 +5,10 @@
 #include <boost/log/trivial.hpp>
 #include <boost/log/attributes/named_scope.hpp>
 
+#pragma warning ( push )
+#pragma warning ( disable:4714 ) 
 #include <boost/format.hpp>
+#pragma warning ( pop )
 
 namespace light
 {

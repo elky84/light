@@ -10,8 +10,6 @@ public:
 	{
 		memset(&m_TOTAL, 0, sizeof(m_TOTAL));
 
-		memset(&m_Job_Name, 0, sizeof(m_Job_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
 
 		memset(&m_HP, 0, sizeof(m_HP));

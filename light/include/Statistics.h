@@ -1,6 +1,10 @@
 #pragma once
 
+#pragma warning ( push )
+#pragma warning ( disable:4714 ) 
 #include <boost/format.hpp>
+#pragma warning ( pop )
+
 #include <boost/atomic.hpp>
 
 namespace light

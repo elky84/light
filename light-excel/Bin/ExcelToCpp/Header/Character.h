@@ -18,8 +18,6 @@ public:
 
 		memset(&m_Phy, 0, sizeof(m_Phy));
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Move, 0, sizeof(m_Move));
 
 		memset(&m_Luck, 0, sizeof(m_Luck));
@@ -29,8 +27,6 @@ public:
 		memset(&m_Int, 0, sizeof(m_Int));
 
 		memset(&m_Index, 0, sizeof(m_Index));
-
-		memset(&m_Image, 0, sizeof(m_Image));
 
 		memset(&m_Dex, 0, sizeof(m_Dex));
 

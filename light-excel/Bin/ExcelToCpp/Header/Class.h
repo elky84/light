@@ -10,8 +10,6 @@ public:
 	{
 		memset(&m_Type, 0, sizeof(m_Type));
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
 
 	}

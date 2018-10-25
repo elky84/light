@@ -64,7 +64,7 @@ bool CppCodeGenerator::End()
 bool CppCodeGenerator::Write()
 {
 	std::map<std::wstring, INT> vector_infos;
-	std::vector<std::wstring> variables;
+	std::vector<std::pair<std::wstring, std::wstring>> variables;
 
 	// 리버스로 어댑터로 돌리는 이유는, 정수로 끝나는 변수 묶음이 존재할 경우 이를 std::vector화 시키는데, 이 과정에서 제일 큰 값으로 Declare해주기 위함이다.
 	for each(auto& val in boost::adaptors::reverse(m_Variable))
@@ -117,7 +117,7 @@ bool CppCodeGenerator::Write()
 				Declare(m_StreamVariable, type, member_variable);
 			}
 
-			variables.push_back(member_variable);
+			variables.push_back(std::pair<std::wstring, std::wstring>(type, member_variable));
 			m_setUsedVariable.insert(variable);
 		}
 	}
@@ -130,9 +130,13 @@ bool CppCodeGenerator::Write()
 		VectorResize(m_Stream, L"m_" + val.first, val.second);
 	}
 
-	for each(auto& variable in variables)
+	for each(auto& pair in variables)
 	{
-		Memset(m_Stream, variable);
+		if (pair.first == L"std::wstring") {
+			continue;
+		}
+
+		Memset(m_Stream, pair.second);
 	}
 
 	ConstructorEnd(m_Stream);
