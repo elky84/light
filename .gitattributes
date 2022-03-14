@@ -61,3 +61,9 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+# ignore custom files
+dependencies/* linguist-vendored
+redis/redisclient/* linguist-vendored
+light-curl/libcurl-7.19.3-win32-ssl-msvc/* linguist-vendored
+light-db/KompexSQLiteWrapper-Source_1.8.10/* linguist-vendored
